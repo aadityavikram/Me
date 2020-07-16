@@ -1,0 +1,174 @@
+/* CSS Variables */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  margin: 30px 50px;
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: #707070;
+  font-size: .9rem;
+  text-transform: uppercase;
+  position: relative;
+  top: 50%;
+  bottom: 50%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: var(--light)
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+/* Navigation */
+.navbar {
+  background-color: #252627;
+}
+
+nav a:hover {
+  color: var(--light);
+}
+
+.container {
+  padding: 0 100px 0 100px;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+/* Portfolio */
+.portfolio {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  background: var(--dark);
+  color: var(--light);
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .main-nav ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.modal {
+z-index:1;
+display:none;
+padding-top:10px;
+position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+overflow:auto;
+background-color:rgb(0,0,0);
+background-color:rgba(0,0,0,0.8)
+}
+
+.modal-content {
+margin: auto;
+display: block;
+position: absolute;
+width:70%;
+height:70%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.modal-hover-opacity {
+opacity:1;
+filter:alpha(opacity=100);
+-webkit-backface-visibility:hidden
+}
+
+.modal-hover-opacity:hover {
+opacity:0.60;
+filter:alpha(opacity=60);
+-webkit-backface-visibility:hidden
+}
+
+
+.close {
+text-decoration:none;
+float:right;
+font-size:24px;
+font-weight:bold;
+color:white
+}
+
+.container1 {
+width:100%;
+display:inline-block;
+}
+
+.modal-content, #caption {   
+  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
