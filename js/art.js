@@ -24,7 +24,7 @@ images.forEach((img, index) => {
 
         hint.textContent = isMobile
           ? 'Swipe left/right to navigate'
-          : 'Use ← → arrow keys to navigate';
+          : 'Use ← → keyboard arrow keys to navigate';
 
         hint.style.display = 'block';
 
