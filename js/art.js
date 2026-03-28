@@ -30,7 +30,7 @@ images.forEach((img, index) => {
 
         setTimeout(() => {
           hint.style.display = 'none';
-        }, 1000);
+        }, 1500);
 
         hintShown = true;
       }
