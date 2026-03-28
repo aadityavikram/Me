@@ -17,6 +17,18 @@ body {
   padding: 20px;
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
 header {
   display: flex;
   justify-content: space-between;
