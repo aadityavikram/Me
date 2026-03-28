@@ -7,6 +7,8 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const swipeThreshold = 40;
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+let hintShown = false;
 const counter = document.getElementById('counter');
 
 images.forEach((img, index) => {
@@ -16,6 +18,22 @@ images.forEach((img, index) => {
       lightboxImg.src = img.src;
       updateCounter();
       document.body.classList.add('no-scroll');
+
+      if (!hintShown) {
+        const hint = document.getElementById('hint');
+
+        hint.textContent = isMobile
+          ? 'Swipe to navigate'
+          : 'Use ← → arrow keys to navigate';
+
+        hint.style.display = 'block';
+
+        setTimeout(() => {
+          hint.style.display = 'none';
+        }, 1000);
+
+        hintShown = true;
+      }
     });
 });
 
