@@ -23,7 +23,7 @@ images.forEach((img, index) => {
         const hint = document.getElementById('hint');
 
         hint.textContent = isMobile
-          ? 'Swipe to navigate'
+          ? 'Swipe left/right to navigate'
           : 'Use ← → arrow keys to navigate';
 
         hint.style.display = 'block';
