@@ -4,7 +4,9 @@ const lightboxImg = document.getElementById('lightbox-img');
 
 let currentIndex = 0;
 let startX = 0;
-let endX = 0;
+let currentX = 0;
+let isDragging = false;
+const swipeThreshold = 40;
 const counter = document.getElementById('counter');
 
 images.forEach((img, index) => {
@@ -13,6 +15,7 @@ images.forEach((img, index) => {
       lightbox.style.display = 'flex';
       lightboxImg.src = img.src;
       updateCounter();
+      document.body.classList.add('no-scroll');
     });
 });
 
@@ -22,11 +25,48 @@ function updateCounter() {
 
 lightbox.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
+    isDragging = true;
 });
 
-lightbox.addEventListener('touchend', (e) => {
-    endX = e.changedTouches[0].clientX;
-    handleSwipe();
+lightbox.addEventListener('touchmove', (e) => {
+    if (!isDragging) return;
+
+    currentX = e.touches[0].clientX;
+    const diff = currentX - startX;
+
+    // 👇 move image with finger (smooth feel)
+    lightboxImg.style.transform = `translateX(${diff}px)`;
+});
+
+lightbox.addEventListener('touchend', () => {
+    if (!isDragging) return;
+    isDragging = false;
+
+    const diff = currentX - startX;
+
+    // 👇 reset position smoothly
+    lightboxImg.style.transition = 'transform 0.2s ease';
+
+    if (Math.abs(diff) > swipeThreshold) {
+      if (diff < 0) {
+        // swipe left → next
+        currentIndex = (currentIndex + 1) % images.length;
+      } else {
+        // swipe right → prev
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+      }
+
+      lightboxImg.src = images[currentIndex].src;
+      updateCounter();
+    }
+
+    // snap back
+    lightboxImg.style.transform = 'translateX(0)';
+
+    // remove transition after animation
+    setTimeout(() => {
+      lightboxImg.style.transition = '';
+    }, 200);
 });
 
 function handleSwipe() {
@@ -56,6 +96,7 @@ images.forEach(img => {
 lightbox.addEventListener('click', (e) => {
   if (e.target !== lightboxImg) {
     lightbox.style.display = 'none';
+    document.body.classList.remove('no-scroll');
   }
 });
 
@@ -64,6 +105,7 @@ lightbox.addEventListener('click', (e) => {
   closeBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     lightbox.style.display = 'none';
+    document.body.classList.remove('no-scroll');
   });
 
 // Keyboard controls
@@ -72,6 +114,7 @@ if (lightbox.style.display === 'flex') {
 
   if (e.key === 'Escape') {
     lightbox.style.display = 'none';
+    document.body.classList.remove('no-scroll');
   }
 
   if (e.key === 'ArrowRight') {

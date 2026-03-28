@@ -121,6 +121,11 @@ header a {
   color: #0b0b0b;
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 footer {
   text-align: center;
   font-size: 0.8rem;
