@@ -136,6 +136,13 @@ header span {
   margin-bottom: 15px;
 }
 
+.grid-entertainment {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
 .timeline {
   border-left: 2px solid #ef4444;
   padding-left: 10px;
@@ -181,7 +188,7 @@ footer {
 }
 
 @media(max-width: 768px) {
-  .hero, .grid {
+  .hero, .grid, .grid-entertainment {
     grid-template-columns: 1fr;
   }
 }
