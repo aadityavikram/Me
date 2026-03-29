@@ -4,7 +4,6 @@ const lightboxImg = document.getElementById('lightbox-img');
 
 const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxLength = document.getElementById('lightbox-length');
-const lightboxGenre = document.getElementById('lightbox-genre');
 const lightboxDesc = document.getElementById('lightbox-desc');
 
 const genresContainer = document.getElementById("lightbox-genres");
