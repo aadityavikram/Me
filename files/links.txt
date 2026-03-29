@@ -1,0 +1,4 @@
+https://imdbapi.dev/
+Get Movies from US: https://api.imdbapi.dev/titles?types=MOVIE&countryCodes=US
+Get TV Series from US: https://api.imdbapi.dev/titles?types=TV_SERIES&countryCodes=US
+Get Video Games: https://api.imdbapi.dev/titles?types=VIDEO_GAME
