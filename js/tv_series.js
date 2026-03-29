@@ -7,6 +7,8 @@ const lightboxLength = document.getElementById('lightbox-length');
 const lightboxGenre = document.getElementById('lightbox-genre');
 const lightboxDesc = document.getElementById('lightbox-desc');
 
+const genresContainer = document.getElementById("lightbox-genres");
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
@@ -70,21 +72,21 @@ images.forEach((img, index) => {
 
 /* ---------- RENDER FROM URL / JSON ---------- */
 function renderGallery() {
-//  console.log("Movie: " + JSON.stringify(tvSeriesData));
+//  console.log("TV Series: " + JSON.stringify(tvSeriesData));
   gallery.innerHTML = '';
 
-  tvSeriesData.titles.forEach((movie, index) => {
+  tvSeriesData.titles.forEach((tvSeries, index) => {
 
     const card = document.createElement('section');
     card.className = 'card';
 
     card.innerHTML = `
-      <img src="${movie.primaryImage.url}"
-           alt="${movie.primaryTitle}"
+      <img src="${tvSeries.primaryImage.url}"
+           alt="${tvSeries.primaryTitle}"
            data-index="${index}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
-        ${movie.primaryTitle}
+        ${tvSeries.primaryTitle}
       </p>
     `;
 
@@ -110,16 +112,27 @@ function attachClickEvents() {
 }
 
 function updateLightbox() {
-    const movie = tvSeriesData.titles[currentIndex];
+    const tvSeries = tvSeriesData.titles[currentIndex];
 
-    lightboxImg.src = `${movie.primaryImage.url}`;
+    lightboxImg.src = `${tvSeries.primaryImage.url}`;
 
-    lightboxTitle.textContent = `${movie.primaryTitle} (${movie.startYear})`;
-    if (movie.runtimeSeconds !== undefined) {
-      lightboxLength.textContent = secondsToHHMMSS(movie.runtimeSeconds);
+    lightboxTitle.textContent = `${tvSeries.primaryTitle} (${tvSeries.startYear})`;
+    if (tvSeries.runtimeSeconds !== undefined) {
+      lightboxLength.textContent = secondsToHHMMSS(tvSeries.runtimeSeconds);
     }
-    lightboxGenre.textContent = 'Genre: ' + movie.genres;
-    lightboxDesc.textContent = movie.plot;
+    setGenres(tvSeries.genres)
+    lightboxDesc.textContent = tvSeries.plot;
+}
+
+function setGenres(genresArray) {
+  genresContainer.innerHTML = ""; // clear previous
+
+  genresArray.forEach(genre => {
+    const tag = document.createElement("div");
+    tag.classList.add("genre-tag");
+    tag.textContent = genre;
+    genresContainer.appendChild(tag);
+  });
 }
 
 function secondsToHHMMSS(totalSeconds) {

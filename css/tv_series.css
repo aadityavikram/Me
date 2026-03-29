@@ -182,6 +182,31 @@ header a {
   text-align: center;
 }
 
+#lightbox-genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* Individual Genre Tag */
+.genre-tag {
+  background: #0b0b0b;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.genre-tag:hover {
+  background: #ef4444;
+  color: #0b0b0b;
+}
+
 .no-scroll {
   overflow: hidden;
   height: 100vh;

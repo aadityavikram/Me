@@ -7,6 +7,8 @@ const lightboxLength = document.getElementById('lightbox-length');
 const lightboxGenre = document.getElementById('lightbox-genre');
 const lightboxDesc = document.getElementById('lightbox-desc');
 
+const genresContainer = document.getElementById("lightbox-genres");
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
@@ -118,8 +120,19 @@ function updateLightbox() {
     if (movie.runtimeSeconds !== undefined) {
       lightboxLength.textContent = secondsToHHMMSS(movie.runtimeSeconds);
     }
-    lightboxGenre.textContent = 'Genres: ' + movie.genres;
+    setGenres(movie.genres)
     lightboxDesc.textContent = movie.plot;
+}
+
+function setGenres(genresArray) {
+  genresContainer.innerHTML = ""; // clear previous
+
+  genresArray.forEach(genre => {
+    const tag = document.createElement("div");
+    tag.classList.add("genre-tag");
+    tag.textContent = genre;
+    genresContainer.appendChild(tag);
+  });
 }
 
 function secondsToHHMMSS(totalSeconds) {
