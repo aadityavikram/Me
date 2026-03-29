@@ -46,6 +46,7 @@ images.forEach((img, index) => {
     currentIndex = index;
 
     lightbox.style.display = 'flex';
+    lightbox.scrollTop = 0;
     updateLightbox();
 
     document.body.classList.add('no-scroll');

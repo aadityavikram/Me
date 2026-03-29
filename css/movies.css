@@ -92,8 +92,10 @@ header a {
   background: rgba(0,0,0,0.9);
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  overflow-y: auto;
+  padding: 20px 10px;
   z-index: 999;
 }
 
@@ -106,7 +108,7 @@ header a {
 }
 
 .lightbox .close-btn {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   width: 36px;
@@ -120,6 +122,8 @@ header a {
   font-size: 18px;
   cursor: pointer;
   background: rgba(0,0,0,0.6);
+  z-index: 1000;
+  backdrop-filter: blur(6px);
 }
 
 .lightbox .close-btn:hover {
@@ -235,6 +239,7 @@ footer {
   .lightbox-content {
     grid-template-columns: 1fr;
     text-align: center;
+    margin-top: 40px;
   }
 
   .lightbox-left img {
