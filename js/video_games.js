@@ -13,11 +13,9 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const videoGamesUrl = ''
-const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/video_games_a-3YnJ3Mr.json'
+const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_a-3YnJ3Mr.json'
 
-const swipeThreshold = 40;
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-let hintShown = false;
 
 const gallery = document.getElementById('gallery');
 
@@ -50,23 +48,6 @@ images.forEach((img, index) => {
     updateLightbox();
 
     document.body.classList.add('no-scroll');
-
-    // Hint
-    if (!hintShown) {
-      const hint = document.getElementById('hint');
-
-      hint.textContent = isMobile
-        ? 'Swipe left/right to navigate'
-        : 'Use ← → keyboard arrow keys to navigate';
-
-      hint.style.display = 'block';
-
-      setTimeout(() => {
-        hint.style.display = 'none';
-      }, 1500);
-
-      hintShown = true;
-    }
   });
 });
 
@@ -145,46 +126,6 @@ function secondsToHHMMSS(totalSeconds) {
 
   return `${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
 }
-
-/* ---------- SWIPE ---------- */
-lightbox.addEventListener('touchstart', (e) => {
-  startX = e.touches[0].clientX;
-  isDragging = true;
-});
-
-lightbox.addEventListener('touchmove', (e) => {
-  if (!isDragging) return;
-
-  currentX = e.touches[0].clientX;
-  const diff = currentX - startX;
-
-  lightboxImg.style.transform = `translateX(${diff}px)`;
-});
-
-lightbox.addEventListener('touchend', () => {
-  if (!isDragging) return;
-  isDragging = false;
-
-  const diff = currentX - startX;
-
-  lightboxImg.style.transition = 'transform 0.2s ease';
-
-  if (Math.abs(diff) > swipeThreshold) {
-    if (diff < 0) {
-      currentIndex = (currentIndex + 1) % images.length;
-    } else {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
-    }
-
-    updateLightbox();
-  }
-
-  lightboxImg.style.transform = 'translateX(0)';
-
-  setTimeout(() => {
-    lightboxImg.style.transition = '';
-  }, 200);
-});
 
 /* ---------- CLOSE ---------- */
 lightbox.addEventListener('click', (e) => {

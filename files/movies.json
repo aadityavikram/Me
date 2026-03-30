@@ -1,6 +1,23 @@
 {
   "titles":[
     {
+      "primaryTitle": "Project Hail Mary",
+      "startYear": 2026,
+      "genres": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "plot": "Project Hail Mary is a 2026 American science fiction film produced and directed by Phil Lord and Christopher Miller and written by Drew Goddard, based on the 2021 novel by Andy Weir. It stars Ryan Gosling (who also produced the film alongside Weir), Sandra Hüller, James Ortiz, and Lionel Boyce. The film follows the story of Ryland Grace, a man who awakens on an interstellar spacecraft with no memory of how he came to be there.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/project_hail_mary_BNO1cVXxp.jpg"
+      },
+      "runtimeSeconds": 9360
+    },
+    {
       "primaryTitle": "The Shawshank Redemption",
       "startYear": 1994,
       "genres": [
