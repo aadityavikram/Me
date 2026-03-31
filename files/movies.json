@@ -15,6 +15,888 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "Dune: Part One",
+      "startYear": 2021,
+      "genres": ["Action", "Adventure", "Drama", "Sci-Fi"],
+      "plot": "Dune (titled on-screen as Dune: Part One) is a 2021 American epic space opera film co-produced and directed by Denis Villeneuve, who co-wrote the screenplay with Jon Spaihts and Eric Roth. It is the first of a two-part adaptation of the 1965 novel by Frank Herbert and the first installment in Legendary Pictures' Dune film series. The cast includes Timothée Chalamet, Rebecca Ferguson, Oscar Isaac, Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley Henderson, Zendaya, Chang Chen, Sharon Duncan-Brewster, Charlotte Rampling, Jason Momoa, and Javier Bardem. Set in the distant future, the film follows Paul Atreides as his family, the noble House Atreides, is thrust into a war for the deadly and inhospitable desert planet Arrakis.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/dune_1_H0Vz8pv8y.jpg"
+      },
+      "runtimeSeconds": 9300,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Dune: Part Two",
+      "startYear": 2024,
+      "genres": ["Action", "Adventure", "Drama", "Sci-Fi"],
+      "plot": "Dune: Part Two is a 2024 American epic space opera film co-produced and directed by Denis Villeneuve, who co-wrote the screenplay with Jon Spaihts. The sequel to Dune (2021), it is the second of a two-part adaptation of the 1965 novel Dune by Frank Herbert and the second installment in Legendary Pictures' Dune film series. It follows Paul Atreides as he unites with the Fremen people of the desert planet Arrakis to wage war against House Harkonnen. Timothée Chalamet, Rebecca Ferguson, Josh Brolin, Stellan Skarsgård, Dave Bautista, Zendaya, Charlotte Rampling, and Javier Bardem reprise their roles from the first film, with Austin Butler, Florence Pugh, Christopher Walken, and Léa Seydoux joining the cast.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/dune_2_kVA07r0AR.jpg"
+      },
+      "runtimeSeconds": 9960,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Blade Runner 2049",
+      "startYear": 2017,
+      "genres": ["Action", "Drama", "Mystery", "Sci-Fi", "Thriller"],
+      "plot": "Blade Runner 2049 is a 2017 American epic neo-noir science fiction film directed by Denis Villeneuve from a screenplay by Hampton Fancher and Michael Green, based on a story by Fancher. A sequel to Blade Runner (1982), the film stars Ryan Gosling and Harrison Ford, with Ana de Armas, Sylvia Hoeks, Robin Wright, Mackenzie Davis, Dave Bautista, and Jared Leto in supporting roles. Ford and Edward James Olmos reprise their roles from the previous film as Rick Deckard and Gaff, respectively. Gosling plays K, a \"blade runner\" who uncovers a secret that threatens to destabilize society and the course of civilization.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/blade_runner_2049_5wruewTdo.jpg"
+      },
+      "runtimeSeconds": 9840,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Arrival",
+      "startYear": 2016,
+      "genres": ["Drama", "Mystery", "Sci-Fi"],
+      "plot": "Arrival is a 2016 American science fiction drama film directed by Denis Villeneuve and written by Eric Heisserer, based on the 1998 novella \"Story of Your Life\" by Ted Chiang. The film stars Amy Adams as Louise Banks, a linguist engaged by the United States Army to discover how to communicate with extraterrestrials who have arrived on Earth, before tensions lead to war. Jeremy Renner, Forest Whitaker, and Michael Stuhlbarg appear in supporting roles.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/arrival_rtMJkadQS.jpg"
+      },
+      "runtimeSeconds": 6960,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Sicario",
+      "startYear": 2015,
+      "genres": ["Action", "Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Sicario is a 2015 American action crime thriller film directed by Denis Villeneuve, written by Taylor Sheridan in his screenwriting debut and starring Emily Blunt, Benicio del Toro, and Josh Brolin. The film follows a principled FBI special agent who is enlisted by a government task force to bring down the leader of a powerful and brutal Mexican drug cartel. Sicario was selected to compete for the Palme d'Or at the 2015 Cannes Film Festival. It began a limited release in the United States on September 18, 2015, followed by a nationwide release on October 2, 2015.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/sicario_x_fMZrj9d.jpg"
+      },
+      "runtimeSeconds": 7260,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Enemy",
+      "startYear": 2013,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "plot": "Enemy is a 2013 psychological thriller film directed by Denis Villeneuve and produced by M. A. Faura and Niv Fichman. Written by Javier Gullón, it was loosely adapted from José Saramago's 2002 novel The Double. The film stars Jake Gyllenhaal in a dual role as two men who are physically identical, but different in personality. Mélanie Laurent, Sarah Gadon, and Isabella Rossellini co-star. It is an international co-production of companies from Spain, France and Canada.",
+      "rating": {
+        "aggregateRating": 6.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/enemy_Cf5hJdIA5.jpg"
+      },
+      "runtimeSeconds": 5460,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "Prisoners",
+      "startYear": 2013,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Prisoners is a 2013 American crime thriller film directed by Denis Villeneuve and written by Aaron Guzikowski. The film has an ensemble cast including Hugh Jackman, Jake Gyllenhaal, Viola Davis, Maria Bello, Terrence Howard, Melissa Leo, and Paul Dano. The film follows the abduction of two young girls in Pennsylvania and the subsequent search for the perpetrator by the police. After police arrest a young suspect and release him, the father of one of the daughters takes matters into his own hands.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/prisoners_0IaXG0_zG.jpg"
+      },
+      "runtimeSeconds": 9180,
+      "director": "Denis Villeneuve"
+    },
+    {
+      "primaryTitle": "The Hateful Eight",
+      "startYear": 2015,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller", "Western"],
+      "plot": "The Hateful Eight is a 2015 American Western mystery thriller film written and directed by Quentin Tarantino. It stars Samuel L. Jackson, Kurt Russell, Jennifer Jason Leigh, Walton Goggins, Demián Bichir, Tim Roth, Michael Madsen, and Bruce Dern as eight dubious strangers who seek refuge from a blizzard in a stagecoach stopover a decade after the American Civil War.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hateful_eight_4CeX5Q7qU.jpg"
+      },
+      "runtimeSeconds": 10080,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "primaryTitle": "Django Unchained",
+      "startYear": 2012,
+      "genres": ["Drama", "Western"],
+      "plot": "Django Unchained (/ˈdʒæŋɡoʊ/ JANG-goh) is a 2012 American revisionist Western film written and directed by Quentin Tarantino. Produced by Tarantino's A Band Apart and Columbia Pictures, it stars Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington, and Samuel L. Jackson with Walton Goggins, Dennis Christopher, James Remar, Michael Parks, and Don Johnson in supporting roles. The film, set in the Antebellum South and Old West, follows the story of an enslaved man who trains under a German bounty hunter with the ultimate goal of reuniting with his wife. It is a highly stylized, revisionist tribute to spaghetti Westerns, with its title referring particularly to the 1966 Italian film Django by Sergio Corbucci.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/django_unchained_noPLBW2x-.jpg"
+      },
+      "runtimeSeconds": 9900,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "primaryTitle": "Inglourious Basterds",
+      "startYear": 2009,
+      "genres": ["Adventure", "Drama", "War"],
+      "plot": "Inglourious Basterds is a 2009 black comedy war film written and directed by Quentin Tarantino. It stars an ensemble cast including Brad Pitt, Christoph Waltz, Michael Fassbender, Eli Roth, Diane Kruger, Daniel Brühl, Til Schweiger, and Mélanie Laurent. The film tells an alternate history story of two converging plots to assassinate Nazi Germany's leadership at a Paris cinema—one through a British operation largely carried out by a team of Jewish American soldiers led by First Lieutenant Aldo Raine (Pitt), and another by French Jewish cinema proprietor Shosanna Dreyfus (Laurent) who seeks to avenge her murdered family. Both are pitted against Hans Landa (Waltz), an SS colonel with a fearsome reputation.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/inglorious_basterds_mAfIC0Sqg.jpg"
+      },
+      "runtimeSeconds": 9180,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "primaryTitle": "Pulp Fiction",
+      "startYear": 1994,
+      "genres": ["Crime", "Drama"],
+      "plot": "Pulp Fiction is a 1994 American independent black comedy crime film written and directed by Quentin Tarantino from a story he conceived with Roger Avary. It tells four intertwining tales of crime and violence in Los Angeles. The film stars John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.",
+      "rating": {
+        "aggregateRating": 8.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/pulp_fiction_j9e5hSEQV.jpg"
+      },
+      "runtimeSeconds": 9240,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "primaryTitle": "Reservoir Dogs",
+      "startYear": 1992,
+      "genres": ["Crime", "Thriller"],
+      "plot": "Reservoir Dogs is a 1992 American independent heist film written and directed by Quentin Tarantino in his feature-length directorial debut. It stars Harvey Keitel, Tim Roth, Chris Penn, Steve Buscemi, Lawrence Tierney, Michael Madsen, Tarantino, and Edward Bunker as diamond thieves whose heist of a jewelry store goes terribly wrong. Kirk Baltz, Randy Brooks, and Steven Wright also play supporting roles. The film incorporates many motifs that have become Tarantino's hallmarks: violent crime, pop culture references, profanity, and nonlinear storytelling.",
+      "rating": {
+        "aggregateRating": 8.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/reservoir_dogs_zYmwju80V.jpg"
+      },
+      "runtimeSeconds": 5940,
+      "director": "Quentin Tarantino"
+    },
+    {
+      "primaryTitle": "Spider-Man",
+      "startYear": 2002,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Spider-Man is a 2002 American superhero film based on the Marvel Comics character Spider-Man. Directed by Sam Raimi from a screenplay by David Koepp, it is the first film in Raimi's Spider-Man trilogy (2002–2007). Produced by Columbia Pictures and Laura Ziskin Productions in association with Marvel Enterprises, it stars Tobey Maguire, Willem Dafoe, Kirsten Dunst, James Franco, Cliff Robertson, and Rosemary Harris. The plot follows the timid teenager Peter Parker, who gains superhuman abilities after being bitten by a genetically engineered spider. He adopts the masked persona \"Spider-Man\" and begins to fight crime in New York City, facing the malevolent Green Goblin in the process.",
+      "rating": {
+        "aggregateRating": 7.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/spider_man_1_1j0hIV1dW.jpg"
+      },
+      "runtimeSeconds": 7260,
+      "director": "Sam Raimi"
+    },
+    {
+      "primaryTitle": "Spider-Man 2",
+      "startYear": 2004,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Spider-Man 2 is a 2004 American superhero film based on the Marvel Comics character Spider-Man. Directed by Sam Raimi and written by Alvin Sargent from a story conceived by Michael Chabon and the writing team of Alfred Gough and Miles Millar, it is the second installment in Raimi's Spider-Man trilogy, following the 2002 film. The film stars Tobey Maguire as Peter Parker / Spider-Man, alongside Kirsten Dunst, James Franco, Alfred Molina, Rosemary Harris, and Donna Murphy. Peter Parker fights to stop scientist Dr. Otto Octavius from recreating a dangerous experiment, while also dealing with a personal crisis.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/spider_man_2_EbB51UM0b.jpg"
+      },
+      "runtimeSeconds": 7620,
+      "director": "Sam Raimi"
+    },
+    {
+      "primaryTitle": "Spider-Man 3",
+      "startYear": 2007,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Spider-Man 3 is a 2007 American superhero film based on the Marvel Comics character Spider-Man. Produced by Columbia Pictures, Marvel Entertainment, and Laura Ziskin Productions, and distributed by Sony Pictures Releasing, it was directed by Sam Raimi from a screenplay he co-wrote with his brother Ivan and Alvin Sargent. It is the final film in Raimi's Spider-Man trilogy (2002–2007). The film stars Tobey Maguire as Peter Parker / Spider-Man, alongside Kirsten Dunst, James Franco, Thomas Haden Church, Topher Grace, Bryce Dallas Howard, James Cromwell, Rosemary Harris, and J. K. Simmons. It also marks the final appearance of Cliff Robertson before he retired from acting. Set a year after the events of Spider-Man 2, the film follows Peter as he prepares for his future with his girlfriend Mary Jane Watson while facing the Sandman, Venom and his vengeful friend Harry Osborn.",
+      "rating": {
+        "aggregateRating": 6.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/spider_man_3_ZnEEQaJuP.jpg"
+      },
+      "runtimeSeconds": 8340,
+      "director": "Sam Raimi"
+    },
+    {
+      "primaryTitle": "The Menu",
+      "startYear": 2022,
+      "genres": ["Comedy", "Horror", "Thriller"],
+      "plot": "The Menu is a 2022 American black comedy horror film directed by Mark Mylod and written by Seth Reiss and Will Tracy. It stars an ensemble cast consisting of Ralph Fiennes, Anya Taylor-Joy, Nicholas Hoult, Hong Chau, Janet McTeer, Judith Light, and John Leguizamo. It follows a foodie and his date travelling to a remote island to eat at an exclusive restaurant, where the chef has prepared a lavish menu with a shocking surprise for his guests.",
+      "rating": {
+        "aggregateRating": 7.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_menu_QYn_sL-TH.jpg"
+      },
+      "runtimeSeconds": 6420,
+      "director": "Mark Mylod"
+    },
+    {
+      "primaryTitle": "The Gentlemen",
+      "startYear": 2019,
+      "genres": ["Action", "Comedy", "Crime"],
+      "plot": "The Gentlemen is a 2019 action comedy film, directed and produced by Guy Ritchie, co-written with Marn Davies and Ivan Atkinson. Starring Matthew McConaughey, Charlie Hunnam, Henry Golding, Michelle Dockery, Jeremy Strong, Eddie Marsan, Colin Farrell, and Hugh Grant, the film follows an American drug lord in England who is looking to sell his business, setting off a chain of blackmail and schemes to undermine him.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_gentlemen_fLmdrXYBt.jpg"
+      },
+      "runtimeSeconds": 6780,
+      "director": "Guy Ritchie"
+    },
+    {
+      "primaryTitle": "The Grand Budapest Hotel",
+      "startYear": 2014,
+      "genres": ["Comedy", "Drama"],
+      "plot": "The Grand Budapest Hotel is a 2014 comedy-drama film written and directed by Wes Anderson. The film's seventeen-actor ensemble cast is led by Ralph Fiennes as Monsieur Gustave H., famed concierge of a twentieth-century mountainside resort in the fictional country of Zubrowka. After being framed for the murder of a wealthy dowager (Tilda Swinton), he and his recently befriended protégé Zero (Tony Revolori) embark on a quest for fortune and a priceless Renaissance painting amidst the backdrop of an encroaching fascist regime. Anderson's American Empirical Pictures produced the film in association with Studio Babelsberg, Fox Searchlight Pictures, and Indian Paintbrush's Scott Rudin and Steven Rales. Fox Searchlight supervised the commercial distribution, and The Grand Budapest Hotel's funding came from Indian Paintbrush and German government-funded tax rebates.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_grand_budapest_hotel_Ivc_t7Hx4.jpg"
+      },
+      "runtimeSeconds": 5940,
+      "director": "Wes Anderson"
+    },
+    {
+      "primaryTitle": "The Pianist",
+      "startYear": 2002,
+      "genres": ["Biography", "Drama", "Music", "War"],
+      "plot": "The Pianist is a 2002 epic biographical historical drama film co-produced and directed by Roman Polanski, with a script by Ronald Harwood, and starring Adrien Brody. It is based on the autobiographical book The Pianist (1946), a memoir by the Polish-Jewish pianist, composer and Holocaust survivor Władysław Szpilman. The film was a co-production by France, the United Kingdom, Germany and Poland.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_pianist_2N5C6WosB.jpg"
+      },
+      "runtimeSeconds": 9000,
+      "director": "Roman Polanski"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Sorcerer's Stone",
+      "startYear": 2001,
+      "genres": ["Adventure", "Family", "Fantasy"],
+      "plot": "Harry Potter and the Philosopher's Stone (also known as Harry Potter and the Sorcerer's Stone in the United States, India, and the Philippines) is a 2001 fantasy film directed by Chris Columbus and written by Steve Kloves, based on the 1997 novel by J. K. Rowling. It is the first installment in the Harry Potter film series, and stars Daniel Radcliffe as Harry Potter, with Rupert Grint as Ron Weasley, and Emma Watson as Hermione Granger. Its story follows Harry's first year at Hogwarts School of Witchcraft and Wizardry as he discovers that he is a famous wizard and begins his formal wizarding education.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_1_wfbYu1qXA.jpg"
+      },
+      "runtimeSeconds": 9120,
+      "director": "Chris Columbus"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Chamber of Secrets",
+      "startYear": 2002,
+      "genres": ["Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Chamber of Secrets is a 2002 fantasy film directed by Chris Columbus from a screenplay by Steve Kloves. It is based on the 1998 novel Harry Potter and the Chamber of Secrets by J. K. Rowling. Produced by David Heyman, it is the sequel to Harry Potter and the Philosopher's Stone (2001) and the second instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson as his best friends Ron Weasley and Hermione Granger respectively. The story follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, where the Heir of Salazar Slytherin opens the Chamber of Secrets, unleashing a monster that petrifies the school's students.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_2_2t9woaFl6.jpg"
+      },
+      "runtimeSeconds": 9660,
+      "director": "Chris Columbus"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Prisoner of Azkaban",
+      "startYear": 2004,
+      "genres": ["Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Prisoner of Azkaban is a 2004 fantasy film directed by Alfonso Cuarón from a screenplay by Steve Kloves. It is based on the 1999 novel Harry Potter and the Prisoner of Azkaban by J. K. Rowling. It is the sequel to Harry Potter and the Chamber of Secrets (2002) and the third instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger, respectively. It chronicles Harry's third year at Hogwarts and his quest to uncover the truth about his past, including the connection recently escaped Azkaban prisoner Sirius Black has to Harry and his deceased parents.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_3_XI3G_9eCt.jpg"
+      },
+      "runtimeSeconds": 8520,
+      "director": "Alfonso Cuarón"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Goblet of Fire",
+      "startYear": 2005,
+      "genres": ["Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Goblet of Fire is a 2005 fantasy film directed by Mike Newell from a screenplay by Steve Kloves. It is based on the 2000 novel Harry Potter and the Goblet of Fire by J. K. Rowling. It is the sequel to Harry Potter and the Prisoner of Azkaban (2004) and the fourth instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger, respectively. The story follows Harry's fourth year at Hogwarts, as he is chosen by the Goblet of Fire to compete in the Triwizard Tournament.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_4_2ATHV5ZY0.jpg"
+      },
+      "runtimeSeconds": 9420,
+      "director": "Mike Newell"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Order of the Phoenix",
+      "startYear": 2007,
+      "genres": ["Action", "Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates from a screenplay by Michael Goldenberg. It is based on the 2003 novel Harry Potter and the Order of the Phoenix by J. K. Rowling. It is the sequel to Harry Potter and the Goblet of Fire (2005) and the fifth instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger respectively. Its story follows Harry's fifth year at Hogwarts School of Witchcraft and Wizardry as the Ministry of Magic is in denial of Lord Voldemort's return.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_5_HjmvxoK-K.jpg"
+      },
+      "runtimeSeconds": 8280,
+      "director": "David Yates"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Half-Blood Prince",
+      "startYear": 2009,
+      "genres": ["Action", "Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Half-Blood Prince is a 2009 fantasy film directed by David Yates from a screenplay by Steve Kloves. It is based on the 2005 novel Harry Potter and the Half-Blood Prince by J. K. Rowling. It is the sequel to Harry Potter and the Order of the Phoenix (2007) and the sixth instalment in the Harry Potter film series. It stars Daniel Radcliffe as Harry Potter, alongside Rupert Grint and Emma Watson as Harry's best friends Ron Weasley and Hermione Granger respectively. The story follows Harry's sixth year at Hogwarts as he receives a mysterious textbook, falls in love, and attempts to retrieve a memory that holds the key to Lord Voldemort's downfall.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_6_H_I6eufei.jpg"
+      },
+      "runtimeSeconds": 9180,
+      "director": "David Yates"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Deathly Hallows: Part 1",
+      "startYear": 2010,
+      "genres": ["Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Deathly Hallows – Part 1 is a 2010 fantasy film directed by David Yates from a screenplay by Steve Kloves. The first of two cinematic parts based on the 2007 novel Harry Potter and the Deathly Hallows by J. K. Rowling, it is the sequel to Harry Potter and the Half-Blood Prince (2009) and the seventh instalment in the Harry Potter film series. The film stars Daniel Radcliffe as Harry Potter, with Rupert Grint and Emma Watson reprising roles as Harry's best friends Ron Weasley and Hermione Granger, respectively. The story follows Harry Potter, who has been asked by Dumbledore to find and destroy Lord Voldemort's secret to immortality – the Horcruxes.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_7_MVRghGKZ_.jpg"
+      },
+      "runtimeSeconds": 8760,
+      "director": "David Yates"
+    },
+    {
+      "primaryTitle": "Harry Potter and the Deathly Hallows: Part 2",
+      "startYear": 2011,
+      "genres": ["Adventure", "Family", "Fantasy", "Mystery"],
+      "plot": "Harry Potter and the Deathly Hallows – Part 2 is a 2011 fantasy film directed by David Yates from a screenplay by Steve Kloves. It is the second of two cinematic parts based on the 2007 novel by J. K. Rowling, and the eighth and final instalment of the Harry Potter film series. The story concludes Harry Potter's final quest to find and destroy Lord Voldemort's Horcruxes in order to destroy him once and for all.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/harry_potter_8_A21Gx5QcL.jpg"
+      },
+      "runtimeSeconds": 7800,
+      "director": "David Yates"
+    },
+    {
+      "primaryTitle": "The Lord of the Rings: The Fellowship of the Ring",
+      "startYear": 2001,
+      "genres": ["Adventure", "Drama", "Fantasy"],
+      "plot": "The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, and Jackson. It is based on J. R. R. Tolkien's 1954 The Fellowship of the Ring, the first volume of the novel The Lord of the Rings. The film is the first instalment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Billy Boyd, Dominic Monaghan, Orlando Bloom, Christopher Lee, Hugo Weaving, Sean Bean, Ian Holm, and Andy Serkis. Set in Middle-earth, the story tells of the Dark Lord Sauron, who seeks the One Ring, which contains part of his might, to return to power. The Ring has found its way to the young hobbit Frodo Baggins. The fate of Middle-earth hangs in the balance as Frodo and eight companions (who form the eponymous Fellowship of the Ring) begin their perilous journey to Mount Doom in the land of Mordor, the only place where the Ring can be destroyed. The Fellowship of the Ring was financed and distributed by American studio New Line Cinema, but filmed and edited entirely in Jackson's native New Zealand, concurrently with the other two parts of the trilogy.",
+      "rating": {
+        "aggregateRating": 8.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_lord_of_the_rings_1_k00NnVKpd.jpg"
+      },
+      "runtimeSeconds": 10680,
+      "director": "Peter Jackson"
+    },
+    {
+      "primaryTitle": "The Lord of the Rings: The Two Towers",
+      "startYear": 2002,
+      "genres": ["Adventure", "Drama", "Fantasy"],
+      "plot": "The Lord of the Rings: The Two Towers is a 2002 epic fantasy film directed by Peter Jackson from a screenplay by Fran Walsh, Philippa Boyens, Stephen Sinclair, and Jackson, based on 1954's The Two Towers, the second volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2001's The Lord of the Rings: The Fellowship of the Ring, the film is the second instalment in The Lord of the Rings trilogy. It features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Christopher Lee, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Brad Dourif, Karl Urban, and Andy Serkis. Continuing the plot of the previous film, it intercuts three storylines: Frodo and Sam continue their journey toward Mordor to destroy the One Ring, now allied with Gollum, the ring's untrustworthy former bearer. Merry and Pippin escape their orc captors, meet Treebeard the Ent, and help to plan an attack on Isengard, the fortress of Sauron's vassal, the treacherous wizard Saruman. Aragorn, Legolas, and Gimli come to the war-torn nation of Rohan and are reunited with the resurrected Gandalf, before joining king Théoden to fight Saruman's army at the Battle of Helm's Deep.",
+      "rating": {
+        "aggregateRating": 8.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_lord_of_the_rings_2_RhTg2LdUEA.jpg"
+      },
+      "runtimeSeconds": 10740,
+      "director": "Peter Jackson"
+    },
+    {
+      "primaryTitle": "The Lord of the Rings: The Return of the King",
+      "startYear": 2003,
+      "genres": ["Adventure", "Drama", "Fantasy"],
+      "plot": "The Lord of the Rings: The Return of the King is a 2003 epic fantasy film directed by Peter Jackson from a screenplay he wrote with Fran Walsh and Philippa Boyens. It is based on 1955's The Return of the King, the third volume of the novel The Lord of the Rings by J. R. R. Tolkien. The sequel to 2002's The Lord of the Rings: The Two Towers, the film is the final instalment in The Lord of the Rings trilogy. It has an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Karl Urban, John Noble, Andy Serkis, Ian Holm, and Sean Bean. Continuing the plot of the previous film, Frodo and Sam follow Gollum towards Mount Doom to destroy the One Ring, unaware of Gollum's intentions to betray the duo to take the Ring for himself, while Merry, Pippin, Gandalf, Aragorn, Legolas, Gimli and their allies join forces against Sauron and his legions from Mordor.",
+      "rating": {
+        "aggregateRating": 9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_lord_of_the_rings_3_4Yp9_qQTF.jpg"
+      },
+      "runtimeSeconds": 12060,
+      "director": "Peter Jackson"
+    },
+    {
+      "primaryTitle": "Train to Busan",
+      "startYear": 2016,
+      "genres": ["Action", "Horror", "Thriller"],
+      "plot": "Train to Busan (Korean: 부산행; RR: Busanhaeng; MR: Pusanhaeng; lit. 'To Busan') is a 2016 South Korean action horror film directed by Yeon Sang-ho and written by Park Joo-suk. It stars Gong Yoo, Jung Yu-mi, Ma Dong-seok, Kim Su-an, Choi Woo-shik, Ahn So-hee, and Kim Eui-sung. The film takes place primarily on a KTX from Seoul to Busan as a zombie apocalypse suddenly breaks out and threatens the safety of the passengers.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/train_to_busan_9NkPptRPm.jpg"
+      },
+      "runtimeSeconds": 7080,
+      "director": "Yeon Sang-ho"
+    },
+    {
+      "primaryTitle": "A Tale of Two Sisters",
+      "startYear": 2003,
+      "genres": ["Drama", "Horror", "Mystery", "Thriller"],
+      "plot": "A Tale of Two Sisters (Korean: 장화, 홍련; lit. 'Rose Flower, Red Lotus') is a 2003 South Korean psychological horror film written and directed by Kim Jee-woon. The film is inspired by a Joseon-era folktale entitled \"Janghwa Hongryeon jeon\", which has been adapted to film several times. The plot focuses on a recently released patient from a mental institution who returns home with her sister, only to face disturbing events while living with their new unhinged stepmother.",
+      "rating": {
+        "aggregateRating": 7.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/a_tale_of_two_sisters_0Oia7fCiV.jpg"
+      },
+      "runtimeSeconds": 6840,
+      "director": "Kim Jee-woon"
+    },
+    {
+      "primaryTitle": "A Bittersweet Life",
+      "startYear": 2005,
+      "genres": ["Action", "Drama", "Mystery", "Thriller"],
+      "plot": "A Bittersweet Life (Korean: 달콤한 인생; RR: Dalkomhan insaeng; lit. 'The Sweet Life') is a 2005 South Korean action film written and directed by Kim Jee-woon. It stars Lee Byung-hun as Sun-woo, a hitman who becomes targeted by his boss after he spares the latter's cheating mistress.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/a_bittersweet_life_WxE_Mtf8s.jpg"
+      },
+      "runtimeSeconds": 7140,
+      "director": "Kim Jee-woon"
+    },
+    {
+      "primaryTitle": "The Chaser",
+      "startYear": 2008,
+      "genres": ["Action", "Drama", "Mystery", "Thriller"],
+      "plot": "The Chaser (Korean: 추격자) is a 2008 South Korean action thriller film starring Kim Yoon-seok and Ha Jung-woo. It was directed by Na Hong-jin in his directorial debut. Inspired by real-life Korean serial killer Yoo Young-chul, certain scenes were shot on location around Mangwon-dong in the Mapo District, Seoul.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_chaser_mp_y4e8vb.jpg"
+      },
+      "runtimeSeconds": 7500,
+      "director": "Na Hong-jin"
+    },
+    {
+      "primaryTitle": "Oldboy",
+      "startYear": 2003,
+      "genres": ["Action", "Drama", "Mystery", "Thriller"],
+      "plot": "Oldboy (Korean: 올드보이) is a 2003 South Korean action thriller film directed and co-written by Park Chan-wook. A loose adaptation of the Japanese manga Old Boy by Garon Tsuchiya and Nobuaki Minegishi, the film follows Oh Dae-su (Choi Min-sik), who is imprisoned for 15 years without knowing the identity of his captor or his captor's motives. When he is released, Dae-su finds himself trapped in a web of conspiracy and violence as he seeks revenge against his captor who promises that if Dae-Su cannot find him within five days, the captor will kill himself and thus ensure that Dae-Su will never find the truth behind his capture. His quest becomes tied in with romance when he falls in love with a young sushi chef, Mi-do (Kang Hye-jung).",
+      "rating": {
+        "aggregateRating": 8.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/oldboy_fsoUQuABg.jpg"
+      },
+      "runtimeSeconds": 7200,
+      "director": "Park Chan-wook"
+    },
+    {
+      "primaryTitle": "I Saw the Devil",
+      "startYear": 2010,
+      "genres": ["Action", "Thriller"],
+      "plot": "I Saw the Devil (Korean: 악마를 보았다) is a 2010 South Korean action thriller film directed by Kim Jee-woon and written by Park Hoon-jung. Starring Lee Byung-hun and Choi Min-sik, the film follows NIS agent Kim Soo-hyun (Lee), who embarks on a quest for vengeance when his fiancée is brutally murdered by serial killer Jang Kyung-chul (Choi).",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/i_saw_the_devil_k6JhuqU6e.jpg"
+      },
+      "runtimeSeconds": 8640,
+      "director": "Kim Jee-woon"
+    },
+    {
+      "primaryTitle": "2001: A Space Odyssey",
+      "startYear": 1968,
+      "genres": ["Adventure", "Sci-Fi"],
+      "plot": "2001: A Space Odyssey is a 1968 epic science fiction film produced and directed by Stanley Kubrick, who co-wrote the screenplay with Arthur C. Clarke. Its plot was inspired by several short stories optioned from Clarke, primarily \"The Sentinel\" (1951) and \"Encounter in the Dawn\" (1953). The film stars Keir Dullea, Gary Lockwood, William Sylvester, and Douglas Rain, and follows a voyage by astronauts, scientists, and the sentient supercomputer HAL 9000 to Jupiter to investigate an alien monolith.",
+      "rating": {
+        "aggregateRating": 8.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/2001_a_space_odyssey_G-VSq3zii.jpg"
+      },
+      "runtimeSeconds": 8940,
+      "director": "Stanley Kubrick"
+    },
+    {
+      "primaryTitle": "Primal Fear",
+      "startYear": 1996,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Primal Fear is a 1996 American legal thriller film directed by Gregory Hoblit, based on the 1993 novel of the same name by William Diehl, written by Steve Shagan and Ann Biderman. It stars Richard Gere, Laura Linney, John Mahoney, Alfre Woodard, Frances McDormand, and Edward Norton in his film debut. The film follows a Chicago-based defense attorney who believes that his client, an altar boy, is not guilty of murdering a Catholic bishop.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/primal_fear_0MDx0ar2G.jpg"
+      },
+      "runtimeSeconds": 7740,
+      "director": "Gregory Hoblit"
+    },
+    {
+      "primaryTitle": "The Accountant",
+      "startYear": 2016,
+      "genres": ["Action", "Crime", "Drama", "Thriller"],
+      "plot": "The Accountant is a 2016 American action thriller film written by Bill Dubuque, directed by Gavin O'Connor, and starring Ben Affleck, Anna Kendrick, J. K. Simmons, Jon Bernthal, Cynthia Addai-Robinson, Jeffrey Tambor, and John Lithgow. The storyline follows Christian Wolff, an autistic certified public accountant who makes his living sanitizing fraudulent financial and accounting records of criminal and terrorist organizations around the world that are experiencing internal embezzlement.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_accountant_kFDJkqLQW.jpg"
+      },
+      "runtimeSeconds": 7680,
+      "director": "Gavin O'Connor"
+    },
+    {
+      "primaryTitle": "Argo",
+      "startYear": 2012,
+      "genres": ["Biography", "Drama", "History", "Thriller"],
+      "plot": "Argo is a 2012 American historical political espionage drama thriller film directed by, produced by, and starring Ben Affleck. The screenplay, written by Chris Terrio, was adapted from the 1999 memoir The Master of Disguise by U.S. C.I.A. operative Tony Mendez and the 2007 Wired article \"The Great Escape: How the CIA Used a Fake Sci-Fi Flick to Rescue Americans from Tehran\" written by Joshuah Bearman. The film deals with the \"Canadian Caper\", in which Mendez led the rescue of six U.S. diplomats from Tehran, Iran, under the guise of filming a science-fiction film during the 1979–81 Iran hostage crisis. The film, which also has Bryan Cranston, Alan Arkin, and John Goodman in supporting roles, was released by Warner Bros. Pictures in the United States on October 12, 2012. It was produced by Affleck, Grant Heslov, and George Clooney.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/argo_-4bT_8gqn.jpg"
+      },
+      "runtimeSeconds": 7200,
+      "director": "Ben Affleck"
+    },
+    {
+      "primaryTitle": "Avengers: Endgame",
+      "startYear": 2019,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Avengers: Endgame is a 2019 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the direct sequel to Avengers: Infinity War (2018) and the 22nd film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast that includes Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers and their allies attempt to reverse Thanos's actions in Infinity War, which erased half of all life in the universe.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/avengers_3_pbVQxHrgb.jpg"
+      },
+      "runtimeSeconds": 10860,
+      "director": "Anthony Russo, Joe Russo"
+    },
+    {
+      "primaryTitle": "Avengers: Infinity War",
+      "startYear": 2018,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to The Avengers (2012) and Avengers: Age of Ultron (2015), and the 19th film in the Marvel Cinematic Universe (MCU). Directed by Anthony and Joe Russo and written by Christopher Markus and Stephen McFeely, the film features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldaña, Josh Brolin, and Chris Pratt. In the film, the Avengers and the Guardians of the Galaxy attempt to stop Thanos from collecting the six powerful Infinity Stones as part of his quest to kill half of all life in the universe.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/avengers_2_icXc-z21s.jpg"
+      },
+      "runtimeSeconds": 8940,
+      "director": "Anthony Russo, Joe Russo"
+    },
+    {
+      "primaryTitle": "Doctor Strange",
+      "startYear": 2016,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+      "plot": "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 14th film in the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson from a screenplay he wrote with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as neurosurgeon Stephen Strange along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In the film, Strange learns the mystic arts after a career-ending car crash.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/doctor_strange__84G23qUi.jpg"
+      },
+      "runtimeSeconds": 6900,
+      "director": "Scott Derrickson"
+    },
+    {
+      "primaryTitle": "Captain America: Civil War",
+      "startYear": 2016,
+      "genres": ["Action", "Sci-Fi"],
+      "plot": "Captain America: Civil War is a 2016 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and Captain America: The Winter Soldier (2014), and the 13th film in the Marvel Cinematic Universe (MCU). The film was directed by Anthony and Joe Russo from a screenplay by the writing team of Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside an ensemble cast including Robert Downey Jr., Scarlett Johansson, Sebastian Stan, Anthony Mackie, Don Cheadle, Jeremy Renner, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Paul Rudd, Emily VanCamp, Marisa Tomei, Tom Holland, Frank Grillo, Martin Freeman, William Hurt, and Daniel Brühl. In Captain America: Civil War, disagreement over international oversight of the Avengers fractures the team into two opposing factions—one led by Steve Rogers and the other by Tony Stark (Downey).",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/captain_america_3_4wYbBa1Dc.jpg"
+      },
+      "runtimeSeconds": 8820,
+      "director": "Anthony Russo, Joe Russo"
+    },
+    {
+      "primaryTitle": "Captain America: The Winter Soldier",
+      "startYear": 2014,
+      "genres": ["Action", "Adventure", "Sci-Fi", "Thriller"],
+      "plot": "Captain America: The Winter Soldier is a 2014 American superhero film based on the Marvel Comics character Captain America, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to Captain America: The First Avenger (2011) and the ninth film in the Marvel Cinematic Universe (MCU). The film was directed by Anthony and Joe Russo from a screenplay by Christopher Markus and Stephen McFeely. It stars Chris Evans as Steve Rogers / Captain America alongside Scarlett Johansson, Sebastian Stan, Anthony Mackie, Cobie Smulders, Frank Grillo, Emily VanCamp, Hayley Atwell, Toby Jones, Jenny Agutter, Robert Redford, and Samuel L. Jackson. In the film, Rogers, Natasha Romanoff (Johansson), and Sam Wilson (Mackie) uncover a conspiracy within the spy agency S.H.I.E.L.D. while facing the Winter Soldier (Stan), a mysterious assassin.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/captain_america_2_zCOZw3EM0.jpg"
+      },
+      "runtimeSeconds": 8160,
+      "director": "Joe Russo, Anthony Russo"
+    },
+    {
+      "primaryTitle": "The Avengers",
+      "startYear": 2012,
+      "genres": ["Action", "Sci-Fi"],
+      "plot": "Marvel's The Avengers (titled Marvel Avengers Assemble in the United Kingdom and Ireland and commonly referred to as simply The Avengers) is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, Thor, Natasha Romanoff, and Clint Barton to form a team capable of stopping Thor's brother Loki from subjugating Earth.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_avengers_lP6C0l-db.jpg"
+      },
+      "runtimeSeconds": 8580,
+      "director": "Joss Whedon"
+    },
+    {
+      "primaryTitle": "Captain America: The First Avenger",
+      "startYear": 2011,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures, it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Toby Jones, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination.",
+      "rating": {
+        "aggregateRating": 6.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/captain_america_1_-eugibYY6.jpg"
+      },
+      "runtimeSeconds": 7440,
+      "director": "Joe Johnston"
+    },
+    {
+      "primaryTitle": "Thor",
+      "startYear": 2011,
+      "genres": ["Action", "Fantasy"],
+      "plot": "Thor is a 2011 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures, it is the fourth film in the Marvel Cinematic Universe (MCU). It was directed by Kenneth Branagh, written by the writing team of Ashley Edward Miller and Zack Stentz along with Don Payne, and stars Chris Hemsworth as the title character alongside Natalie Portman, Tom Hiddleston, Stellan Skarsgård, Kat Dennings, Clark Gregg, Colm Feore, Ray Stevenson, Idris Elba, Jaimie Alexander, Rene Russo, and Anthony Hopkins. After reigniting a dormant war, Thor is banished from Asgard to Earth, stripped of his powers and his hammer Mjölnir. As his brother Loki (Hiddleston) plots to take the Asgardian throne, Thor must prove himself worthy.",
+      "rating": {
+        "aggregateRating": 7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/thor_pxFQvLW-L.jpg"
+      },
+      "runtimeSeconds": 6900,
+      "director": "Kenneth Branagh"
+    },
+    {
+      "primaryTitle": "The Incredible Hulk",
+      "startYear": 2008,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "The Incredible Hulk is a 2008 American superhero film based on the Marvel Comics character the Hulk. Produced by Marvel Studios and Valhalla Motion Pictures, and distributed by Universal Pictures, it is the second film in the Marvel Cinematic Universe (MCU). It was directed by Louis Leterrier from a screenplay by Zak Penn, and stars Edward Norton as Bruce Banner alongside Liv Tyler, Tim Roth, William Hurt, Tim Blake Nelson, Ty Burrell, and Christina Cabot. In the film, Banner becomes the monstrous Hulk as an unwitting pawn in a military scheme to reinvigorate the \"super soldier\" program through gamma radiation. He goes on the run from the military while attempting to cure himself of the Hulk.",
+      "rating": {
+        "aggregateRating": 6.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_incredible_hulk_hc9gcrNgI.jpg"
+      },
+      "runtimeSeconds": 6720,
+      "director": "Louis Leterrier"
+    },
+    {
+      "primaryTitle": "Iron Man",
+      "startYear": 2008,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Paramount Pictures, it is the first film in the Marvel Cinematic Universe (MCU). Directed by Jon Favreau from a screenplay by the writing teams of Mark Fergus & Hawk Ostby and Art Marcum & Matt Holloway, the film stars Robert Downey Jr. as Tony Stark / Iron Man alongside Terrence Howard, Jeff Bridges, Gwyneth Paltrow, Leslie Bibb, and Shaun Toub. In the film, following his escape from captivity by a terrorist group, world-famous industrialist and master engineer Stark builds a mechanized suit of armor and becomes the superhero Iron Man.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/iron_man_JskSUigFB.jpg"
+      },
+      "runtimeSeconds": 7560,
+      "director": "Jon Favreau"
+    },
+    {
+      "primaryTitle": "The Batman",
+      "startYear": 2022,
+      "genres": ["Action", "Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "The Batman is a 2022 American superhero film based on the DC Comics character Batman. Directed by Matt Reeves from a screenplay he wrote with Peter Craig, it is a reboot of the Batman film franchise. Robert Pattinson stars as Bruce Wayne / Batman alongside Zoë Kravitz, Paul Dano, Jeffrey Wright, John Turturro, Peter Sarsgaard, Andy Serkis, and Colin Farrell. The film sees Batman, in his second year fighting crime in Gotham City, uncover corruption with ties to his own family while pursuing the Riddler (Dano), a mysterious serial killer targeting the city's elite. Reeves and Dylan Clark produced the film for DC Films and Warner Bros. Pictures.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_batman_skD0Wpd7S.jpg"
+      },
+      "runtimeSeconds": 10560,
+      "director": "Matt Reeves"
+    },
+    {
+      "primaryTitle": "Joker",
+      "startYear": 2019,
+      "genres": ["Action", "Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Joker is a 2019 American psychological thriller film directed by Todd Phillips from a screenplay he co-wrote with Scott Silver. Based on DC Comics characters, it stars Joaquin Phoenix and provides an alternative origin story for the Joker. Against the backdrop of a decaying Gotham City, the film follows Arthur Fleck, a struggling mentally ill clown and aspiring stand-up comedian whose descent into moral nihilism inspires a violent countercultural revolution against the wealthy. Robert De Niro, Zazie Beetz, and Frances Conroy appear in supporting roles.",
+      "rating": {
+        "aggregateRating": 8.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/joker_TWvwBirkW.jpg"
+      },
+      "runtimeSeconds": 7320,
+      "director": "Todd Phillips"
+    },
+    {
+      "primaryTitle": "Zack Snyder's Justice League",
+      "startYear": 2021,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+      "plot": "Zack Snyder's Justice League is the 2021 director's cut and the original version of the 2017 American superhero film Justice League, the fifth film set within the DC Extended Universe (DCEU), which is based on the team of the same name appearing in DC. It is director Zack Snyder's original vision of the film prior to his departure from the production. The film follows Batman (Ben Affleck), Wonder Woman (Gal Gadot), Cyborg (Ray Fisher), Aquaman (Jason Momoa), the Flash (Ezra Miller), and Superman (Henry Cavill) as they form an alliance to stop the extradimensional New God Steppenwolf (Ciarán Hinds) and his army of Parademons from conquering Earth for his overlord, Darkseid (Ray Porter).",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/zack_synders_justice_league_wTnDb1wz9.jpg"
+      },
+      "runtimeSeconds": 14520,
+      "director": "Zack Snyder"
+    },
+    {
+      "primaryTitle": "Aquaman",
+      "startYear": 2018,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+      "plot": "Aquaman is a 2018 American superhero film based on the DC character of the same name. Co-produced and distributed by Warner Bros. Pictures, it is the sixth film in the DC Extended Universe (DCEU). Directed by James Wan from a screenplay by David Leslie Johnson-McGoldrick and Will Beall, it stars Jason Momoa as Arthur Curry / Aquaman, who sets out to lead the underwater kingdom of Atlantis and stop his evil half-brother, King Orm (Patrick Wilson) from uniting the seven underwater kingdoms to destroy the surface world. Amber Heard, Willem Dafoe, Dolph Lundgren, Yahya Abdul-Mateen II, and Nicole Kidman also star in supporting roles.",
+      "rating": {
+        "aggregateRating": 6.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/aquaman_3ADxHNaWj.jpg"
+      },
+      "runtimeSeconds": 8580,
+      "director": "James Wan"
+    },
+    {
+      "primaryTitle": "Wonder Woman",
+      "startYear": 2017,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi", "War"],
+      "plot": "Wonder Woman is a 2017 superhero film based on the DC Comics character Wonder Woman. Directed by Patty Jenkins from a screenplay by Allan Heinberg, and based on a story by Heinberg, Zack Snyder, and Jason Fuchs, it is the fourth film in the DC Extended Universe (DCEU). Gal Gadot stars as Diana Prince / Wonder Woman alongside Chris Pine, Robin Wright, Danny Huston, David Thewlis, Connie Nielsen, and Elena Anaya. The film follows Diana, an Amazon princess, as she leaves her home island of Themyscira after the American spy Steve Trevor informs her about World War I. Believing it to be orchestrated by Ares, the god of war, she sets out to stop the conflict.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/wonder_woman__VWT2pMUK.jpg"
+      },
+      "runtimeSeconds": 8460,
+      "director": "Patty Jenkins"
+    },
+    {
+      "primaryTitle": "Man of Steel",
+      "startYear": 2013,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Man of Steel is a 2013 superhero film based on the DC Comics character Superman. Directed by Zack Snyder and written by David S. Goyer, who developed the story with producer Christopher Nolan, it is the first film in the DC Extended Universe (DCEU), and a reboot of the Superman film series, depicting the character's origin story. Henry Cavill stars as Superman, alongside Amy Adams, Michael Shannon, Kevin Costner, Diane Lane, Laurence Fishburne, and Russell Crowe. In the film, Clark Kent learns that he is a superpowered alien from the planet Krypton and assumes the role of mankind's protector as Superman, making the choice to face General Zod and stop him from destroying humanity.",
+      "rating": {
+        "aggregateRating": 7.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/man_of_steel_RV9QAQuJI.jpg"
+      },
+      "runtimeSeconds": 8580,
+      "director": "Zack Snyder"
+    },
+    {
+      "primaryTitle": "Watchmen",
+      "startYear": 2009,
+      "genres": ["Action", "Drama", "Mystery", "Sci-Fi"],
+      "plot": "Watchmen is a 2009 American superhero film based on the comic book series by Dave Gibbons, and published by DC Comics. Directed by Zack Snyder, and written by David Hayter and Alex Tse, the film stars Malin Åkerman, Billy Crudup, Matthew Goode, Carla Gugino, Jackie Earle Haley, Jeffrey Dean Morgan, and Patrick Wilson. A dark and dystopian deconstruction of the superhero genre, the film is set in an alternate history in the year 1985 at the height of the Cold War, as a group of mostly retired American superheroes investigate the murder of one of their own before uncovering an elaborate and deadly conspiracy with which they are all connected.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/watchmen_vHCcFsCTy.jpg"
+      },
+      "runtimeSeconds": 9720,
+      "director": "Zack Snyder"
+    },
+    {
+      "primaryTitle": "Deadpool",
+      "startYear": 2016,
+      "genres": ["Action", "Comedy", "Sci-Fi"],
+      "plot": "Deadpool is a 2016 American superhero film based on the Marvel Comics character Wade Wilson / Deadpool. Directed by Tim Miller, in his feature directorial debut, and written by Rhett Reese and Paul Wernick, it is a spin-off of the X-Men film series and its overall eighth installment. Ryan Reynolds stars as the titular character, alongside Morena Baccarin, Ed Skrein, T.J. Miller, Gina Carano, and Brianna Hildebrand. In the film, Wilson hunts the man responsible for giving him mutant abilities and a scarred physical appearance, becoming the antihero Deadpool.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/deadpool_BpM6lFZID.jpg"
+      },
+      "runtimeSeconds": 6480,
+      "director": "Tim Miller"
+    },
+    {
+      "primaryTitle": "American Sniper",
+      "startYear": 2014,
+      "genres": ["Action", "Biography", "Drama", "War"],
+      "plot": "American Sniper is a 2014 American biographical war drama film directed and co-produced by Clint Eastwood and written and executive-produced by Jason Hall, based on the memoir of the same name by Chris Kyle with Scott McEwen and Jim DeFelice. The film follows the life of Kyle, who became the deadliest marksman in U.S. military history with 255 kills from four tours in the Iraq War, 160 of which were officially confirmed by the Department of Defense. While Kyle was celebrated for his military successes, his tours of duty took a heavy toll on his personal and family life. It stars Bradley Cooper as Kyle and Sienna Miller as his wife Taya, with Luke Grimes, Jake McDorman, Cory Hardrict, Kevin Lacz, Navid Negahban, and Keir O'Donnell in supporting roles.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/american_sniper_SKTnB0STf.jpg"
+      },
+      "runtimeSeconds": 7980,
+      "director": "Clint Eastwood"
+    },
+    {
+      "primaryTitle": "Limitless",
+      "startYear": 2011,
+      "genres": ["Sci-Fi", "Thriller"],
+      "plot": "Limitless is a 2011 American science fiction thriller film directed by Neil Burger and written by Leslie Dixon. Loosely based on the 2001 novel The Dark Fields by Alan Glynn, the film stars Bradley Cooper, Abbie Cornish, Andrew Howard, Anna Friel, and Robert De Niro. It follows Edward Morra, a struggling writer who is introduced to a drug called NZT-48 that greatly enhances his brain function, which helps him improve his lifestyle.",
+      "rating": {
+        "aggregateRating": 7.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/limitless_33oaOY_6y.jpg"
+      },
+      "runtimeSeconds": 6300,
+      "director": "Neil Burger"
+    },
+    {
+      "primaryTitle": "The Hangover Part III",
+      "startYear": 2013,
+      "genres": ["Comedy", "Crime"],
+      "plot": "The Hangover Part III is a 2013 American comedy film co-produced and directed by Todd Phillips from a script he wrote with Craig Mazin. It is the sequel to The Hangover Part II (2011) and the final installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Ken Jeong, Justin Bartha, Mike Epps, Sasha Barrese, Gillian Vigman, Mike Vallely, Grant Holmquist, Jamie Chung, Sondra Currie, Heather Graham, Jeffrey Tambor, and Phillips reprising their roles from the previous two installments joined by Melissa McCarthy and John Goodman. In the film, the \"Wolfpack\" (Phil, Stu, Doug, and Alan) seek help for Alan after his mental breakdown, only for things to go awry when an incident from the original film comes back to haunt them.",
+      "rating": {
+        "aggregateRating": 5.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_3_JvpxCFHcY.jpg"
+      },
+      "runtimeSeconds": 6000,
+      "director": "Todd Phillips"
+    },
+    {
+      "primaryTitle": "The Hangover Part II",
+      "startYear": 2011,
+      "genres": ["Comedy"],
+      "plot": "The Hangover Part II is a 2011 American comedy film and sequel to the 2009 film The Hangover, and the second installment in The Hangover trilogy. The film was directed by Todd Phillips, who co-wrote the script with Craig Mazin and Scot Armstrong, and stars Bradley Cooper, Ed Helms, Zach Galifianakis, Ken Jeong, Jeffrey Tambor, Justin Bartha, and Paul Giamatti. It tells the story of Phil, Stu, Alan, and Doug, as they travel to Thailand. After the bachelor party in Las Vegas, Stu takes no chances and opts for a safe, subdued pre-wedding brunch. Things do not go as planned, resulting in another bad hangover with no memories of the previous night.",
+      "rating": {
+        "aggregateRating": 6.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_2_BYGu5xJtO.jpg"
+      },
+      "runtimeSeconds": 6120,
+      "director": "Todd Phillips"
+    },
+    {
+      "primaryTitle": "The Hangover",
+      "startYear": 2009,
+      "genres": ["Comedy"],
+      "plot": "The Hangover is a 2009 American comedy film directed by Todd Phillips, and written by Jon Lucas and Scott Moore. It is the first installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Heather Graham, Justin Bartha, and Jeffrey Tambor. It tells the story of Phil Wenneck (Cooper), Stu Price (Helms), Alan Garner (Galifianakis), and Doug Billings (Bartha), who travel to Las Vegas for a bachelor party to celebrate Doug's impending marriage. However, Phil, Stu, and Alan wake up with Doug missing and no memory of the previous night's events, and must find Doug before the wedding can take place.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_1_W5FwnfVIL.jpg"
+      },
+      "runtimeSeconds": 6000,
+      "director": "Todd Phillips"
+    },
+    {
       "primaryTitle": "The Killer",
       "startYear": 2023,
       "genres": ["Action", "Adventure", "Crime", "Drama", "Thriller"],
@@ -223,20 +1105,6 @@
       },
       "runtimeSeconds": 7980,
       "director": "Gareth Edwards"
-    },
-    {
-      "primaryTitle": "Doctor Strange",
-      "startYear": 2016,
-      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
-      "plot": "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 14th film in the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson from a screenplay he wrote with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as neurosurgeon Stephen Strange along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In the film, Strange learns the mystic arts after a career-ending car crash.",
-      "rating": {
-        "aggregateRating": 7.5
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/doctor_strange__84G23qUi.jpg"
-      },
-      "runtimeSeconds": 6900,
-      "director": "Scott Derrickson"
     },
     {
       "primaryTitle": "The Hunt",
