@@ -1,29 +1,9 @@
 {
   "titles":[
     {
-      "primaryTitle": "There Will Be Blood",
-      "startYear": 2007,
-      "genres": [
-        "Drama"
-      ],
-      "plot": "There Will Be Blood is a 2007 American epic period drama film co-produced, written and directed by Paul Thomas Anderson, loosely based on the 1927 novel Oil! by Upton Sinclair.It stars Daniel Day-Lewis, Paul Dano, Kevin J. O'Connor, Ciarán Hinds, and Dillon Freasier. The film follows silver miner-turned-oilman Daniel Plainview (Day-Lewis) as he embarks on a ruthless quest for wealth during the Californian oil boom in the late 19th and early 20th centuries.",
-      "rating": {
-        "aggregateRating": 8.2
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/there_will_be_blood_xQZuty6VZ.jpg"
-      },
-      "runtimeSeconds": 9480,
-      "director": "Paul Thomas Anderson"
-    },
-    {
       "primaryTitle": "Project Hail Mary",
       "startYear": 2026,
-      "genres": [
-        "Drama",
-        "Sci-Fi",
-        "Thriller"
-      ],
+      "genres": ["Drama", "Sci-Fi", "Thriller"],
       "plot": "Project Hail Mary is a 2026 American science fiction film produced and directed by Phil Lord and Christopher Miller and written by Drew Goddard, based on the 2021 novel by Andy Weir. It stars Ryan Gosling (who also produced the film alongside Weir), Sandra Hüller, James Ortiz, and Lionel Boyce. The film follows the story of Ryland Grace, a man who awakens on an interstellar spacecraft with no memory of how he came to be there.",
       "rating": {
         "aggregateRating": 8.4
@@ -35,12 +15,779 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "Polar",
+      "startYear": 2019,
+      "genres": ["Action", "Crime", "Thriller"],
+      "plot": "Polar is a 2019 neo-noir action thriller film directed by Jonas Åkerlund and written by Jayson Rothwell, based on Víctor Santos's 2013 graphic novel Polar: Came From the Cold. The film stars Mads Mikkelsen, Vanessa Hudgens, Katheryn Winnick, and Matt Lucas. It revolves around an aging assassin on the verge of retirement who becomes targeted by his employer wanting to cash in on his pension. Polar was released worldwide on Netflix on January 25, 2019. A second film, The Black Kaiser, is in development.",
+      "rating": {
+        "aggregateRating": 6.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/polar_PA49V7wOo.jpg"
+      },
+      "runtimeSeconds": 7080,
+      "director": "Jonas Åkerlund"
+    },
+    {
+      "primaryTitle": "Rogue One: A Star Wars Story",
+      "startYear": 2016,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Rogue One: A Star Wars Story is a 2016 American epic space opera film directed by Gareth Edwards and written by Chris Weitz and Tony Gilroy. Produced by Lucasfilm and distributed by Walt Disney Studios Motion Pictures, it is the first Star Wars anthology film and a prequel to Star Wars (1977). It stars Felicity Jones, Diego Luna, Ben Mendelsohn, Donnie Yen, Mads Mikkelsen, Alan Tudyk, Riz Ahmed, Jiang Wen, and Forest Whitaker. Set a week before the events of Star Wars, the film follows rebels who steal the schematics for the Galactic Empire's ultimate weapon, the Death Star. It details the Rebel Alliance's first effective victory against the Empire, as referenced in the Star Wars opening crawl.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/rogue_one_tOBmj3zKn.jpg"
+      },
+      "runtimeSeconds": 7980,
+      "director": "Gareth Edwards"
+    },
+    {
+      "primaryTitle": "Doctor Strange",
+      "startYear": 2016,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+      "plot": "Doctor Strange is a 2016 American superhero film based on the Marvel Comics character of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 14th film in the Marvel Cinematic Universe (MCU). The film was directed by Scott Derrickson from a screenplay he wrote with Jon Spaihts and C. Robert Cargill, and stars Benedict Cumberbatch as neurosurgeon Stephen Strange along with Chiwetel Ejiofor, Rachel McAdams, Benedict Wong, Michael Stuhlbarg, Benjamin Bratt, Scott Adkins, Mads Mikkelsen, and Tilda Swinton. In the film, Strange learns the mystic arts after a career-ending car crash.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/doctor_strange__84G23qUi.jpg"
+      },
+      "runtimeSeconds": 6900,
+      "director": "Scott Derrickson"
+    },
+    {
+      "primaryTitle": "The Hunt",
+      "startYear": 2012,
+      "genres": ["Drama"],
+      "plot": "The Hunt (Danish: Jagten) is a 2012 Danish psychological drama film directed by Thomas Vinterberg and starring Mads Mikkelsen. Set in a small Danish village around Christmas, the film follows a man named Lucas, a divorced kindergarten teacher who becomes the target of mass hysteria after being accused of sexually abusing a child in his class.",
+      "rating": {
+        "aggregateRating": 8.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hunt_lNWMcsfso.jpg"
+      },
+      "runtimeSeconds": 6900,
+      "director": "Thomas Vinterberg"
+    },
+    {
+      "primaryTitle": "Valhalla Rising",
+      "startYear": 2009,
+      "genres": ["Adventure", "Drama", "Fantasy"],
+      "plot": "Valhalla Rising is a 2009 English-language Danish period adventure film directed by Nicolas Winding Refn, co-written by Refn and Roy Jacobsen, and starring Mads Mikkelsen. The film takes place \"most certainly during the twelfth century of our era\", and follows a Norse warrior named One-Eye and a boy as they travel with a band of Christian Crusaders by ship in the hopes of finding the Holy Land. Instead, they find themselves in North America where they are assailed by Natives and dark visions.",
+      "rating": {
+        "aggregateRating": 6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/valhalla_rising_Pn5i8ehr3.jpg"
+      },
+      "runtimeSeconds": 5580,
+      "director": "Nicolas Winding Refn"
+    },
+    {
+      "primaryTitle": "Casino Royale",
+      "startYear": 2006,
+      "genres": ["Action", "Adventure", "Thriller"],
+      "plot": "Casino Royale is a 2006 spy thriller film, the twenty-first in the James Bond series by Eon Productions, the third screen adaptation of Ian Fleming's 1953 novel of the same name, and the first to star Daniel Craig as the fictional MI6 agent James Bond. The second entry in the film series to be directed by Martin Campbell, Casino Royale's screenplay was written by Neal Purvis, Robert Wade and Paul Haggis; the film co-stars Eva Green, Mads Mikkelsen, Judi Dench and Jeffrey Wright. In the film, Bond is on a mission to bankrupt the terrorism financier Le Chiffre (Mikkelsen) in a high-stakes poker game at the Casino Royale in Montenegro.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/casino_royale_DF-PgwJu8.jpg"
+      },
+      "runtimeSeconds": 8640,
+      "director": "Martin Campbell"
+    },
+    {
+      "primaryTitle": "Killers of the Flower Moon",
+      "startYear": 2023,
+      "genres": ["Crime", "Drama", "History", "Western"],
+      "plot": "Killers of the Flower Moon is a 2023 American epic crime drama film directed by Martin Scorsese, who co-wrote the screenplay with Eric Roth, based on the 2017 nonfiction book. It stars Leonardo DiCaprio, Robert De Niro, and Lily Gladstone. Set in 1920s Oklahoma, it focuses on a series of murders of Osage members and relations in the Osage Nation after oil was discovered on tribal land. The tribal members had retained mineral rights on their reservation, but a corrupt local political boss sought to steal the wealth. It is the sixth feature film collaboration between Scorsese and DiCaprio, the tenth between Scorsese and De Niro, and the eleventh and final between Scorsese and composer Robbie Robertson, who died two months before the film's release and to whom the film is dedicated.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/killers_of_the_flower_moon_w51L76Y_B.jpg"
+      },
+      "runtimeSeconds": 12360,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "The Irishman",
+      "startYear": 2019,
+      "genres": ["Biography", "Crime", "Drama", "History", "Thriller"],
+      "plot": "The Irishman (also known as I Heard You Paint Houses) is a 2019 American epic gangster film directed and produced by Martin Scorsese from a screenplay by Steven Zaillian, based on the 2004 book I Heard You Paint Houses by Charles Brandt. It stars Robert De Niro, Al Pacino, and Joe Pesci, with Ray Romano, Bobby Cannavale, Anna Paquin, Stephen Graham, Stephanie Kurtzuba, Jesse Plemons, and Harvey Keitel in supporting roles. The film follows Frank Sheeran (De Niro), a truck driver who becomes a hitman involved with mobster Russell Bufalino (Pesci) and his crime family before later working for the powerful Teamster Jimmy Hoffa (Pacino). The film marked the ninth collaboration between Scorsese and De Niro, in addition to Scorsese's sixth collaboration with Harvey Keitel, his fourth collaboration with Joe Pesci; his first with Al Pacino; the fourth collaboration between Pacino and De Niro; and the first collaboration between Pacino and Pesci altogether.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_irishman_UUjTOpUr7.jpg"
+      },
+      "runtimeSeconds": 12540,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "The Wolf of Wall Street",
+      "startYear": 2013,
+      "genres": ["Biography", "Comedy", "Crime", "Drama"],
+      "plot": "The Wolf of Wall Street is a 2013 American biographical dark comedy crime film co-produced and directed by Martin Scorsese, written by Terence Winter, and based on Jordan Belfort's 2007 memoir. It loosely recounts Belfort's career as a stockbroker in New York City and how his firm, Stratton Oakmont, engaged in rampant corruption and fraud on Wall Street, leading to his downfall. The film stars Leonardo DiCaprio as Belfort; Jonah Hill as his business partner and friend Donnie Azoff; Margot Robbie as his second wife, Naomi Lapaglia; Matthew McConaughey as his mentor and former boss Mark Hanna; and Kyle Chandler as FBI special agent Patrick Denham portraying Gregory Coleman. It is DiCaprio's fifth collaboration with Scorsese.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_wolf_of_wall_street_0wZ9273l2.jpg"
+      },
+      "runtimeSeconds": 10800,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "The Wolf of Wall Street",
+      "startYear": 2013,
+      "genres": ["Biography", "Comedy", "Crime", "Drama"],
+      "plot": "The Wolf of Wall Street is a 2013 American biographical dark comedy crime film co-produced and directed by Martin Scorsese, written by Terence Winter, and based on Jordan Belfort's 2007 memoir. It loosely recounts Belfort's career as a stockbroker in New York City and how his firm, Stratton Oakmont, engaged in rampant corruption and fraud on Wall Street, leading to his downfall. The film stars Leonardo DiCaprio as Belfort; Jonah Hill as his business partner and friend Donnie Azoff; Margot Robbie as his second wife, Naomi Lapaglia; Matthew McConaughey as his mentor and former boss Mark Hanna; and Kyle Chandler as FBI special agent Patrick Denham portraying Gregory Coleman. It is DiCaprio's fifth collaboration with Scorsese.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_wolf_of_wall_street_0wZ9273l2.jpg"
+      },
+      "runtimeSeconds": 10800,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "Shutter Island",
+      "startYear": 2010,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "plot": "Shutter Island is a 2010 American neo-noir psychological thriller film directed by Martin Scorsese. The screenplay was adapted by Laeta Kalogridis from the 2003 novel by Dennis Lehane. It follows Deputy U.S. Marshal Edward \"Teddy\" Daniels and his partner Chuck, who come to the fictional Shutter Island in Boston Harbor to investigate its criminal psychiatric facility after one of its patients goes missing; Daniels has his own ulterior motives for taking the case. The film stars Leonardo DiCaprio and Mark Ruffalo, with Ben Kingsley, Max von Sydow and Michelle Williams in supporting roles.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/shutter_island_itjiSI_kT.jpg"
+      },
+      "runtimeSeconds": 8280,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "The Departed",
+      "startYear": 2006,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "plot": "The Departed is a 2006 epic crime thriller film, directed by Martin Scorsese and written by William Monahan. A remake of the 2002 Hong Kong film Infernal Affairs, it is also loosely based on the real-life people such as the Winter Hill Gang, corrupt FBI agent John Connolly and Irish-American crime boss Whitey Bulger. The film is set primarily in South Boston; Irish Mob boss Frank Costello (Jack Nicholson) plants Colin Sullivan (Matt Damon) as a spy within the Massachusetts State Police; simultaneously, the police assign undercover state trooper Billy Costigan (Leonardo DiCaprio) to infiltrate Costello's mob crew. The ensemble cast also features Mark Wahlberg, Martin Sheen, Ray Winstone, Vera Farmiga, Alec Baldwin, Anthony Anderson and James Badge Dale",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_departed_GD4VLG9jk.jpg"
+      },
+      "runtimeSeconds": 9060,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "The Aviator",
+      "startYear": 2004,
+      "genres": ["Biography", "Drama"],
+      "plot": "The Aviator is a 2004 epic biographical drama film directed by Martin Scorsese and written by John Logan. It stars Leonardo DiCaprio as Howard Hughes, Cate Blanchett as Katharine Hepburn, and Kate Beckinsale as Ava Gardner. The supporting cast includes John C. Reilly, Alec Baldwin, Alan Alda and Jude Law. Based on the 1993 non-fiction book Howard Hughes: The Secret Life by Charles Higham, the film depicts the life of Howard Hughes, an aviation pioneer and director of the film Hell's Angels. The film portrays his life from 1927 to 1947, when Hughes became a successful film producer and an aviation magnate while simultaneously growing more unstable due to severe obsessive–compulsive disorder (OCD).",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_aviator_tJfcbWog1.jpg"
+      },
+      "runtimeSeconds": 10200,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "GoodFellas",
+      "startYear": 1990,
+      "genres": ["Biography", "Crime", "Drama"],
+      "plot": "Goodfellas (stylized as GoodFellas) is a 1990 American biographical crime drama film directed by Martin Scorsese, written by Nicholas Pileggi and Scorsese, and produced by Irwin Winkler. It is a film adaptation of Pileggi's 1985 nonfiction book Wiseguy. Starring Robert De Niro, Ray Liotta, Joe Pesci, Lorraine Bracco and Paul Sorvino, the film narrates the rise and fall of Mafia associate Henry Hill and his friends and family from 1955 to 1980.",
+      "rating": {
+        "aggregateRating": 8.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/goodfellas_ErKZnslwp.jpg"
+      },
+      "runtimeSeconds": 8700,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "Taxi Driver",
+      "startYear": 1976,
+      "genres": ["Crime", "Drama"],
+      "plot": "Taxi Driver is a 1976 American neo-noir psychological drama film directed by Martin Scorsese and written by Paul Schrader. Set in a decaying New York City following the Vietnam War, it stars Robert De Niro as veteran Marine and taxi driver Travis Bickle, whose mental state deteriorates as he works nights in the city. The film also features Jodie Foster, Cybill Shepherd, Harvey Keitel, Peter Boyle, Leonard Harris and Albert Brooks (in his first feature film role).",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/taxi_driver_O1WBQ76Nx.jpg"
+      },
+      "runtimeSeconds": 6840,
+      "director": "Martin Scorsese"
+    },
+    {
+      "primaryTitle": "Ready Player One",
+      "startYear": 2018,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Ready Player One is a 2018 American science fiction action film directed by Steven Spielberg from a screenplay by Ernest Cline and Zak Penn. Based on Cline's 2011 novel Ready Player One, it stars Tye Sheridan, Olivia Cooke, Ben Mendelsohn, Lena Waithe, T.J. Miller, Simon Pegg and Mark Rylance. The film is set in 2045, where much of humanity uses the OASIS, a virtual reality simulation, to escape the real world. Teenage orphan Wade Watts finds clues to a contest that promises ownership of the OASIS to the winner, and he and his allies try to complete it before an evil corporation can do so.",
+      "rating": {
+        "aggregateRating": 7.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/ready_player_one___Ko21EuGE.jpg"
+      },
+      "runtimeSeconds": 8400,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Bridge of Spies",
+      "startYear": 2015,
+      "genres": ["Drama", "History", "Thriller", "War"],
+      "plot": "Bridge of Spies is a 2015 historical drama film directed and co-produced by Steven Spielberg, written by Matt Charman and the Coen brothers, and starring Tom Hanks in the lead role, Mark Rylance, Amy Ryan, and Alan Alda. Set during the Cold War, the film tells the story of lawyer James B. Donovan, who is entrusted with negotiating the release of Francis Gary Powers—a convicted Central Intelligence Agency pilot whose U-2 spy plane was shot down over the Soviet Union in 1960—in exchange for Rudolf Abel, a convicted Soviet KGB spy held by the United States, whom Donovan represented at trial. The name of the film refers to the Glienicke Bridge, which connects Potsdam with Berlin, where the prisoner exchange took place. The film was an international co-production of the United States, India, Germany and the United Kingdom.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/bridge_of_spies_M4z5WSZVy.jpg"
+      },
+      "runtimeSeconds": 8520,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Lincoln",
+      "startYear": 2012,
+      "genres": ["Biography", "Drama", "History", "War"],
+      "plot": "Lincoln is a 2012 American biographical historical drama film directed and produced by Steven Spielberg, starring Daniel Day-Lewis as United States President Abraham Lincoln. The film features Sally Field, David Strathairn, Joseph Gordon-Levitt, James Spader, Hal Holbrook, and Tommy Lee Jones in supporting roles. Its screenplay by Tony Kushner was loosely based on Doris Kearns Goodwin's 2005 biography Team of Rivals: The Political Genius of Abraham Lincoln and covers the final four months of Lincoln's life. The film focuses on President Lincoln's efforts in January 1865 to abolish slavery and involuntary servitude by having the Thirteenth Amendment to the United States Constitution passed by the United States House of Representatives.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/lincoln_3f7dpGbqW.jpg"
+      },
+      "runtimeSeconds": 9000,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "The Adventures of Tintin",
+      "startYear": 2011,
+      "genres": ["Animation", "Action", "Adventure", "Family", "Mystery"],
+      "plot": "The Adventures of Tintin (released as The Adventures of Tintin: The Secret of the Unicorn in some territories) is a 2011 animated adventure film directed by Steven Spielberg, who produced it with Peter Jackson and Kathleen Kennedy, and written by Steven Moffat, Edgar Wright and Joe Cornish. Based on the Tintin comic book series by Hergé, the film stars Jamie Bell, Andy Serkis and Daniel Craig. In the film, Tintin, Snowy and Captain Haddock search for the treasure of the Unicorn, a ship once captained by Haddock's ancestor Sir Francis Haddock, but face dangerous pursuit by Ivan Ivanovitch Sakharine, the descendant of Sir Francis' nemesis Red Rackham.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_adventures_of_tintin_neum5b2rn.jpg"
+      },
+      "runtimeSeconds": 6420,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "War of the Worlds",
+      "startYear": 2005,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "War of the Worlds is a 2005 American science fiction action-horror film directed by Steven Spielberg and written by Josh Friedman and David Koepp, based on H. G. Wells' 1898 novel, The War of the Worlds. Tom Cruise stars in the main role alongside Dakota Fanning, Miranda Otto, and Tim Robbins, with narration by Morgan Freeman. It follows an American dock worker who must look after his estranged children as he struggles to protect and reunite them with their mother when extraterrestrials invade Earth and devastate cities with giant war machines.",
+      "rating": {
+        "aggregateRating": 6.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/war_of_the_worlds_096KlqJRc.jpg"
+      },
+      "runtimeSeconds": 7020,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "The Terminal",
+      "startYear": 2004,
+      "genres": ["Comedy", "Drama", "Romance"],
+      "plot": "The Terminal is a 2004 American comedy-drama film produced and directed by Steven Spielberg and starring Tom Hanks, Catherine Zeta-Jones and Stanley Tucci. The film is about an Eastern European man who is stuck in New York's John F. Kennedy Airport terminal when he is denied entry to the United States, but is unable to return to his native country because of a military coup.",
+      "rating": {
+        "aggregateRating": 7.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_terminal_i2rFDER7D.jpg"
+      },
+      "runtimeSeconds": 7680,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Catch Me If You Can",
+      "startYear": 2002,
+      "genres": ["Biography", "Crime", "Drama"],
+      "plot": "Catch Me If You Can is a 2002 American crime comedy-drama film directed and produced by Steven Spielberg and starring Leonardo DiCaprio and Tom Hanks with Christopher Walken, Martin Sheen, Nathalie Baye, Amy Adams and James Brolin in supporting roles. The screenplay by Jeff Nathanson is based on the eponymous and semi-autobiographical book by Frank Abagnale Jr., who claims that prior to his 19th birthday, he successfully performed cons worth millions of dollars by posing as a Pan American World Airways pilot, a Georgia doctor, and a Louisiana parish prosecutor. However, the truth of his story is, as of the 2020s, heavily disputed.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/catch_me_if_you_can_LKchJTYUO.jpg"
+      },
+      "runtimeSeconds": 8460,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Minority Report",
+      "startYear": 2002,
+      "genres": ["Action", "Crime", "Mystery", "Sci-Fi", "Thriller"],
+      "plot": "Minority Report is a 2002 American science fiction action thriller film directed by Steven Spielberg and written by Scott Frank and Jon Cohen, who loosely based the screenplay on Philip K. Dick's 1956 novella \"The Minority Report\". It stars Tom Cruise, Colin Farrell, Samantha Morton, and Max von Sydow. The film takes place in 2054 in the Washington metropolitan area, where a specialized police \"precrime\" department apprehends would-be criminals with the use of foreknowledge provided by three psychics called \"precogs\".",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/minority_report_8cEOdTs5c.jpg"
+      },
+      "runtimeSeconds": 8700,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Saving Private Ryan",
+      "startYear": 1998,
+      "genres": ["Drama", "War"],
+      "plot": "Saving Private Ryan is a 1998 American epic war film directed by Steven Spielberg and written by Robert Rodat. Set in 1944 in Normandy, France, during World War II, it follows a group of soldiers, led by Captain John Miller (Tom Hanks), on a mission to locate Private James Francis Ryan (Matt Damon) and bring him home safely after his three brothers have been killed in action. The cast also includes Edward Burns, Tom Sizemore and Jeremy Davies.",
+      "rating": {
+        "aggregateRating": 8.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/saving_private_ryan_Nez-R8VML.jpg"
+      },
+      "runtimeSeconds": 10140,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Schindler's List",
+      "startYear": 1993,
+      "genres": ["Biography", "Drama", "History"],
+      "plot": "Schindler's List is a 1993 American epic historical drama film directed and produced by Steven Spielberg and written by Steven Zaillian. It is based on the historical novel Schindler's Ark (1982) by Thomas Keneally. The film follows Oskar Schindler, a German industrialist who saved more than a thousand mostly Polish–Jewish refugees from the Holocaust by employing them in his factories during World War II. It stars Liam Neeson as Schindler, Ralph Fiennes as SS officer Amon Göth, and Ben Kingsley as Schindler's Jewish accountant Itzhak Stern.",
+      "rating": {
+        "aggregateRating": 9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/schindlers_list_0zVnurGrw.jpg"
+      },
+      "runtimeSeconds": 11700,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Jurassic Park",
+      "startYear": 1993,
+      "genres": ["Adventure", "Adventure", "Sci-Fi", "Thriller"],
+      "plot": "Jurassic Park is a 1993 American science fiction film directed by Steven Spielberg and written by Michael Crichton and David Koepp, based on Crichton's 1990 novel. Starring Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough, Bob Peck, Martin Ferrero, BD Wong, Samuel L. Jackson, Wayne Knight, Joseph Mazzello, and Ariana Richards, the film is set on the fictional island of Isla Nublar near Costa Rica, where wealthy businessman John Hammond (Attenborough) and a team of genetic scientists have created a wildlife park of de-extinct dinosaurs. When industrial sabotage leads to a catastrophic shutdown of the park's power facilities and security precautions, a small group of visitors struggle to survive and escape the now perilous island.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/jurassic_park_-h6ujO-xP.jpg"
+      },
+      "runtimeSeconds": 7620,
+      "director": "Steven Spielberg"
+    },
+    {
+      "primaryTitle": "Mickey 17",
+      "startYear": 2025,
+      "genres": ["Adventure", "Comedy", "Fantasy", "Sci-Fi"],
+      "plot": "Mickey 17 is a 2025 science fiction black comedy film written, produced, and directed by Bong Joon Ho, based on the 2022 novel Mickey7 by Edward Ashton. The film stars Robert Pattinson in the title role, alongside Naomi Ackie, Steven Yeun, Patsy Ferran, Cameron Britton, Daniel Henshall, Stephen Park, Anamaria Vartolomei, Toni Collette, and Mark Ruffalo. Set in the year 2054, the plot follows a man who joins a space colony voyage as an \"Expendable\", a disposable worker who is cloned every time he dies.",
+      "rating": {
+        "aggregateRating": 6.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/mickey_17_p1jC8kN9m.jpg"
+      },
+      "runtimeSeconds": 8220,
+      "director": "Bong Joon Ho"
+    },
+    {
+      "primaryTitle": "Parasite",
+      "startYear": 2019,
+      "genres": ["Drama", "Thriller"],
+      "plot": "Parasite (Korean: 기생충; RR: Gisaengchung) is a 2019 South Korean black comedy thriller film directed by Bong Joon Ho, who co-wrote the screenplay with Han Jin-won. It stars Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam, Jang Hye-jin, Park Myung-hoon, and Lee Jung-eun. The film follows a poor family who infiltrate the home and life of a wealthy family.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/parasite_5LheoZZuJ.jpg"
+      },
+      "runtimeSeconds": 7920,
+      "director": "Bong Joon Ho"
+    },
+    {
+      "primaryTitle": "Snowpiercer",
+      "startYear": 2013,
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "plot": "Snowpiercer (Korean: 설국열차; Hanja: 雪國列車; RR: Seolgungnyeolcha) is a 2013 post-apocalyptic action thriller film based on the French climate fiction graphic novel Le Transperceneige by Jacques Lob, Benjamin Legrand and Jean-Marc Rochette. The film was directed by Bong Joon Ho and written by Bong and Kelly Masterson. An international co-production, the film marks Bong's English-language debut; almost 85% of the film's dialogue is in English.",
+      "rating": {
+        "aggregateRating": 7.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/snowpiercer_W_tsZgOLn.jpg"
+      },
+      "runtimeSeconds": 7560,
+      "director": "Bong Joon Ho"
+    },
+    {
+      "primaryTitle": "Memories of Murder",
+      "startYear": 2003,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Memories of Murder (Korean: 살인의 추억) is a 2003 South Korean neo-noir crime thriller film directed by Bong Joon Ho, from a screenplay by Bong and Shim Sung-bo, and based on the 1996 play Come to See Me by Kim Kwang-lim. It stars Song Kang-ho and Kim Sang-kyung. In the film, detectives Park Doo-man (Song) and Seo Tae-yoon (Kim) lead an investigation into a string of rapes and murders taking place in Hwaseong in the late 1980s. The film is based on the real life killings carried out by Lee Choon-jae (though they were still unsolved at the time).",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/memories_of_murder_ZCd4ZSlG2.jpg"
+      },
+      "runtimeSeconds": 7860,
+      "director": "Bong Joon Ho"
+    },
+    {
+      "primaryTitle": "Alita: Battle Angel",
+      "startYear": 2019,
+      "genres": ["Action", "Adventure", "Sci-Fi", "Thriller"],
+      "plot": "Alita: Battle Angel is a 2019 American cyberpunk action film based on Yukito Kishiro's manga series Battle Angel Alita. It was directed by Robert Rodriguez, produced by James Cameron and Jon Landau, and written by Cameron and Laeta Kalogridis. Using motion-capture and CGI animation, Rosa Salazar stars as Alita, a cyborg who awakens in a new body without memory of her past and sets out to uncover her destiny. Many of the supporting roles, played by Christoph Waltz, Jennifer Connelly, Mahershala Ali, Ed Skrein, Jackie Earle Haley and Keean Johnson, used live-actors.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/alita_battle_angel_Rk7PoP4rV.jpg"
+      },
+      "runtimeSeconds": 7320,
+      "director": "Robert Rodriguez"
+    },
+    {
+      "primaryTitle": "Avatar",
+      "startYear": 2009,
+      "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
+      "plot": "Avatar is a 2009 epic science fiction film written and directed by James Cameron. It features an ensemble cast including Sam Worthington, Zoe Saldaña, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver. It is the first in the Avatar film series. It is set in the mid-22nd century, when humans are colonizing Pandora, a lush habitable moon, in order to mine the valuable mineral unobtanium. The expansion of the mining colony threatens the existence of a local tribe of Na'vi, a humanoid species indigenous to Pandora. The title of the film refers to an \"avatar\", which is a genetically engineered Na'vi body remotely operated from the brain of a human, and which is used to interact with the Na'vi.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/avatar_o2I6XNiPd.jpg"
+      },
+      "runtimeSeconds": 9720,
+      "director": "James Cameron"
+    },
+    {
+      "primaryTitle": "Titanic",
+      "startYear": 1997,
+      "genres": ["Drama", "Romance"],
+      "plot": "Titanic is a 1997 American epic historical romance film written and directed by James Cameron. Incorporating both historical and fictional aspects, it is based on accounts of the sinking of RMS Titanic in 1912. Leonardo DiCaprio and Kate Winslet star as members of different social classes who fall in love during the ship's ill-fated maiden voyage. The ensemble cast includes Billy Zane, Kathy Bates, Frances Fisher, Bernard Hill, Jonathan Hyde, Danny Nucci, David Warner and Bill Paxton.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/titanic_Ty_OnTJHM.jpg"
+      },
+      "runtimeSeconds": 11640,
+      "director": "James Cameron"
+    },
+    {
+      "primaryTitle": "Terminator 2: Judgment Day",
+      "startYear": 1991,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Terminator 2: Judgment Day is a 1991 American science fiction action film directed by James Cameron, who co-wrote the script with William Wisher. Starring Arnold Schwarzenegger, Linda Hamilton, and Robert Patrick, it is the sequel to The Terminator (1984) and is the second installment in the Terminator franchise. In the film, the malevolent artificial intelligence Skynet sends a Terminator—a highly advanced killing machine—back in time to 1995 to kill the future leader of the human resistance, John Connor, when he is a child. The resistance sends back a less advanced, reprogrammed Terminator to protect Connor and ensure the future of humanity.",
+      "rating": {
+        "aggregateRating": 8.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/terminator_2_judgment_day_75BssiCVk.jpg"
+      },
+      "runtimeSeconds": 8220,
+      "director": "James Cameron"
+    },
+    {
+      "primaryTitle": "The Terminator",
+      "startYear": 1984,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "The Terminator is a 1984 American science fiction action film directed by James Cameron, written by Cameron and Gale Anne Hurd, and produced by Hurd. It stars Arnold Schwarzenegger as the Terminator, a cybernetic assassin sent back in time from 2029 to 1984 to assassinate Sarah Connor (Linda Hamilton), whose not-yet-conceived son will one day save mankind from extinction by Skynet, a hostile artificial intelligence, in a post-apocalyptic future. Kyle Reese (Michael Biehn) is a soldier sent back in time to protect Sarah.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_terminator_iJMS8eQpG.jpg"
+      },
+      "runtimeSeconds": 6420,
+      "director": "James Cameron"
+    },
+    {
+      "primaryTitle": "Nosferatu",
+      "startYear": 2024,
+      "genres": ["Fantasy", "Horror", "Mystery"],
+      "plot": "Nosferatu is a 2024 American Gothic horror film written and directed by Robert Eggers. It is a remake of Nosferatu: A Symphony of Horror (1922), which was in turn inspired by Bram Stoker's novel Dracula (1897). It stars Bill Skarsgård, Nicholas Hoult, Lily-Rose Depp, Aaron Taylor-Johnson, Emma Corrin, and Willem Dafoe. A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
+      "rating": {
+        "aggregateRating": 7.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/nosferatu_8ee2WPj2T.jpg"
+      },
+      "runtimeSeconds": 7920,
+      "director": "Robert Eggers"
+    },
+    {
+      "primaryTitle": "The Northman",
+      "startYear": 2022,
+      "genres": ["Action", "Adventure", "Drama", "Fantasy", "Horror", "History", "Thriller"],
+      "plot": "The Northman is a 2022 American epic dark fantasy period action drama film directed by Robert Eggers, who co-wrote the screenplay with Sjón. Based on the legend of Amleth from Gesta Danorum by Saxo Grammaticus, the film follows Amleth, an exiled Viking prince who sets out on a quest to avenge the murder of his father at the hands of his uncle at the height of the Viking Age. It features an ensemble cast of Alexander Skarsgård, Nicole Kidman, Claes Bang, Anya Taylor-Joy, Gustav Lindh, Ethan Hawke, Björk, and Willem Dafoe.",
+      "rating": {
+        "aggregateRating": 7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_northman_ChOao8ATw.jpg"
+      },
+      "runtimeSeconds": 8220,
+      "director": "Robert Eggers"
+    },
+    {
+      "primaryTitle": "The Lighthouse",
+      "startYear": 2019,
+      "genres": ["Drama", "Fantasy", "Horror", "Mystery", "Thriller"],
+      "plot": "The Lighthouse is a 2019 film directed and produced by Robert Eggers, from a screenplay cowritten with his brother Max Eggers. It stars Willem Dafoe and Robert Pattinson as turmoiled nineteenth-century lighthouse keepers stranded at a remote New England outpost by a violent storm. The film has defied genre categorization in media, leading to multiple interpretations from critics.",
+      "rating": {
+        "aggregateRating": 7.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_lighthouse_wmet9uvq-.jpg"
+      },
+      "runtimeSeconds": 6540,
+      "director": "Robert Eggers"
+    },
+    {
+      "primaryTitle": "The Witch",
+      "startYear": 2015,
+      "genres": ["Drama", "Fantasy", "Horror", "Mystery", "Thriller"],
+      "plot": "The Witch (stylized as The VVitch, and subtitled A New-England Folktale) is a 2015 folk horror film written and directed by Robert Eggers in his feature directorial debut. It stars Anya Taylor-Joy in her feature film debut, alongside Ralph Ineson, Kate Dickie, Harvey Scrimshaw, Ellie Grainger, and Lucas Dawson. Set in 1630s New England, the narrative follows a Puritan family who are preyed upon by an evil force in the woods beyond their farm. In fear and desperation, they turn upon one another even when the oldest daughter is suspected of being a witch.",
+      "rating": {
+        "aggregateRating": 7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_witch_fMkeyduz-.jpg"
+      },
+      "runtimeSeconds": 5520,
+      "director": "Robert Eggers"
+    },
+    {
+      "primaryTitle": "Gran Turismo",
+      "startYear": 2023,
+      "genres": ["Action", "Adventure", "Drama", "Sport"],
+      "plot": "Gran Turismo is a 2023 American biographical sports drama film based on the sim racing video game series developed by Polyphony Digital. Produced by Columbia Pictures, PlayStation Productions, and 2.0 Entertainment, the film was directed by Neill Blomkamp from a screenplay by Jason Hall and Zach Baylin. It depicts a sensationalized account of real life British driver Jann Mardenborough, a teenage Gran Turismo player who became a professional racing car driver. The film stars Archie Madekwe as Mardenborough, alongside David Harbour, Orlando Bloom, Darren Barnet, Geri Halliwell Horner, and Djimon Hounsou.",
+      "rating": {
+        "aggregateRating": 7.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/gran_turismo_ujfLqE8FG.jpg"
+      },
+      "runtimeSeconds": 8040,
+      "director": "Neill Blomkamp"
+    },
+    {
+      "primaryTitle": "Chappie",
+      "startYear": 2015,
+      "genres": ["Action", "Crime", "Drama", "Sci-Fi", "Thriller"],
+      "plot": "Chappie (stylized as CHAPPiE) is a 2015 dystopian science fiction action film directed by Neill Blomkamp and written by Blomkamp and Terri Tatchell. A bilateral co-production between the United States and South Africa, the film stars Sharlto Copley, Dev Patel, Hugh Jackman, Ninja, Yolandi Visser, Jose Pablo Cantillo, and Sigourney Weaver. The film, set and shot in Johannesburg, is about an artificial general intelligence law enforcement robot captured and taught by gangsters, who nickname it Chappie.",
+      "rating": {
+        "aggregateRating": 6.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/chappie__Coer0yP6.jpg"
+      },
+      "runtimeSeconds": 7200,
+      "director": "Neill Blomkamp"
+    },
+    {
+      "primaryTitle": "Elysium",
+      "startYear": 2013,
+      "genres": ["Action", "Drama", "Sci-Fi", "Thriller"],
+      "plot": "Elysium is a 2013 American dystopian science fiction action film written, co-produced, and directed by Neill Blomkamp. It was Blomkamp's second directorial effort. The film stars Matt Damon and Jodie Foster alongside Sharlto Copley, Alice Braga, Diego Luna, Wagner Moura, and William Fichtner. The film takes place on both a ravaged Earth and a luxurious artificial world called Elysium. The film itself offers deliberate social commentary that explores political and sociological themes such as immigration, overpopulation, transhumanism, health care, worker exploitation, the justice system, technology, and social class issues.",
+      "rating": {
+        "aggregateRating": 6.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/elysium_nHWrNopV_.jpg"
+      },
+      "runtimeSeconds": 6540,
+      "director": "Neill Blomkamp"
+    },
+    {
+      "primaryTitle": "District 9",
+      "startYear": 2009,
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "plot": "District 9 is a 2009 American-New Zealand science fiction action film directed and co-written by Neill Blomkamp. The film stars Sharlto Copley, Jason Cope, and David James, and was adapted from Blomkamp's 2005 short film Alive in Joburg. The film is partially presented in a mockumentary format by featuring fictional interviews, news footage, and video from surveillance cameras. It begins in an alternate 1982, when an alien spaceship appears over Johannesburg, South Africa. When a population of sick and malnourished insectoid aliens is discovered on the ship, the South African government confines them to an internment camp called District 9. The title and premise of District 9 were predominantly inspired by events in Cape Town's District Six, during the apartheid era. The film explores themes of humanity, racism, xenophobia, social segregation, and medical torture.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/district_9_9MvwN14jz.jpg"
+      },
+      "runtimeSeconds": 6720,
+      "director": "Neill Blomkamp"
+    },
+    {
+      "primaryTitle": "The Martian",
+      "startYear": 2015,
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
+      "plot": "The Martian is a 2015 epic science fiction survival film directed by Ridley Scott from a screenplay by Drew Goddard. Based on Andy Weir's 2011 novel, and distributed by 20th Century Fox, the film stars Matt Damon, alongside an ensemble cast featuring Jessica Chastain, Jeff Daniels, Kristen Wiig, Chiwetel Ejiofor, Sean Bean, Michael Peña, Kate Mara, Sebastian Stan, and Mackenzie Davis. The film depicts an astronaut's struggle to survive on Mars after being left behind and NASA's efforts to return him to Earth.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_martian_EMc2Ox7Dx.jpg"
+      },
+      "runtimeSeconds": 8640,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Exodus: Gods and Kings",
+      "startYear": 2014,
+      "genres": ["Action", "Adventure", "Drama", "Fantasy"],
+      "plot": "Exodus: Gods and Kings is a 2014 biblical epic film directed and produced by Ridley Scott, and written by Adam Cooper, Bill Collage, Jeffrey Caine, and Steven Zaillian. The film stars Christian Bale, Joel Edgerton, John Turturro, Aaron Paul, Ben Mendelsohn, Sigourney Weaver, and Ben Kingsley. It is inspired by the biblical episode of the Exodus of the Hebrews from Egypt led by Moses and related in the Book of Exodus. Development on the film was first announced by Scott in June 2012. Filming occurred primarily in Spain beginning in October 2013, with additional filming at Pinewood Studios in England. The defiant leader Moses rises up against Egyptian Pharaoh Ramses II, setting six hundred thousand slaves on a monumental journey of escape from Egypt and its terrifying cycle of deadly plagues.",
+      "rating": {
+        "aggregateRating": 6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/exodus_gods_and_kings_37cadTDQU.jpg"
+      },
+      "runtimeSeconds": 9000,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Prometheus",
+      "startYear": 2012,
+      "genres": ["Adventure", "Sci-Fi"],
+      "plot": "Prometheus is a 2012 science fiction horror film directed by Ridley Scott and written by Jon Spaihts and Damon Lindelof. It is the fifth installment of the Alien film series and features an ensemble cast including Noomi Rapace, Michael Fassbender, Guy Pearce, Idris Elba, Logan Marshall-Green, and Charlize Theron. Set in the late 21st century, the film centers on the crew of the spaceship Prometheus as it follows a star map discovered among the artifacts of several ancient Earth cultures. Seeking the origins of humanity, the crew arrives on a distant world and discovers a threat that could cause human extinction.",
+      "rating": {
+        "aggregateRating": 7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/prometheus_OTYho_OGO.jpg"
+      },
+      "runtimeSeconds": 7440,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Robin Hood",
+      "startYear": 2010,
+      "genres": ["Action", "Adventure", "Drama", "History"],
+      "plot": "Robin Hood is a 2010 historical action-adventure film based on the Robin Hood legend, directed by Ridley Scott and written by Brian Helgeland, which was based on a story written by Helgeland and the writing duo of Ethan Reiff and Cyrus Voris. Produced by Imagine Entertainment, Relativity Media, and Scott Free Productions, it stars Russell Crowe, Cate Blanchett, William Hurt, Mark Strong, Mark Addy, Oscar Isaac, Danny Huston, Eileen Atkins, and Max von Sydow. In twelfth-century England, Robin Longstride and his band of marauders confront corruption in a local village and lead an uprising against the crown that will forever alter the balance of world power.",
+      "rating": {
+        "aggregateRating": 6.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/robin_hood_NK9TCUMFY.jpg"
+      },
+      "runtimeSeconds": 8400,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Kingdom of Heaven",
+      "startYear": 2005,
+      "genres": ["Action", "Adventure", "Drama", "History", "War"],
+      "plot": "Kingdom of Heaven is a 2005 epic historical drama film directed and produced by Ridley Scott and written by William Monahan. It features an ensemble cast including Orlando Bloom, Eva Green, Jeremy Irons, David Thewlis, Brendan Gleeson, Marton Csokas, and Liam Neeson. The film is a portrayal of the events leading to the Third Crusade, focusing mainly on Balian of Ibelin who fights to defend the Crusader Kingdom of Jerusalem from the Ayyubid Sultan Saladin.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/kingdom_of_heaven_qYviSJLOy.jpg"
+      },
+      "runtimeSeconds": 8640,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Gladiator",
+      "startYear": 2000,
+      "genres": ["Action", "Adventure", "Drama"],
+      "plot": "Gladiator is a 2000 epic action adventure drama film directed by Ridley Scott and written by David Franzoni, John Logan, and William Nicholson from a story by Franzoni. It stars Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed, Derek Jacobi, Djimon Hounsou, and Richard Harris. Crowe portrays Maximus Decimus Meridius, a Roman general who is betrayed when Commodus, the ambitious son of Emperor Marcus Aurelius, murders his father and seizes the throne. Reduced to a slave, Maximus becomes a gladiator and rises through the ranks of the arena, determined to avenge the murders of his family and the emperor.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/gladiator_cgKBQ_KEE.jpg"
+      },
+      "runtimeSeconds": 9300,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Blade Runner",
+      "startYear": 1982,
+      "genres": ["Action", "Drama", "Sci-Fi", "Thriller"],
+      "plot": "Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. Starring Harrison Ford, Rutger Hauer, Sean Young, and Edward James Olmos, it is an adaptation of Philip K. Dick's 1968 novel Do Androids Dream of Electric Sheep? The film is set in a dystopian future Los Angeles of 2019, in which synthetic humans known as replicants are bio-engineered by the powerful Tyrell Corporation to work on space colonies. When a fugitive group of advanced replicants led by Roy Batty (Hauer) escapes back to Earth, former cop Rick Deckard (Ford) reluctantly agrees to hunt them down.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/blade_runner_fFwDKOJd9.jpg"
+      },
+      "runtimeSeconds": 7020,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "Alien",
+      "startYear": 1979,
+      "genres": ["Horror", "Sci-Fi"],
+      "plot": "Alien is a 1979 science fiction horror film directed by Ridley Scott and written by Dan O'Bannon, based on a story by O'Bannon and Ronald Shusett. It follows a commercial starship crew who investigate a derelict space vessel and are hunted by a deadly extraterrestrial creature. The film stars Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm, and Yaphet Kotto. It was produced by Gordon Carroll, David Giler, and Walter Hill through their company Brandywine Productions and was distributed by 20th Century-Fox. Giler and Hill revised and made additions to the script; Shusett was the executive producer. The alien creatures and environments were designed by the Swiss artist H. R. Giger, while the concept artists Ron Cobb and Chris Foss designed the other sets.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/alien_SHYu_wEvl.jpg"
+      },
+      "runtimeSeconds": 7020,
+      "director": "Ridley Scott"
+    },
+    {
+      "primaryTitle": "The Silence of the Lambs",
+      "startYear": 1991,
+      "genres": ["Crime", "Drama", "Horror", "Thriller"],
+      "plot": "The Silence of the Lambs is a 1991 American psychological horror thriller film directed by Jonathan Demme and written by Ted Tally, adapted from Thomas Harris's 1988 novel. It stars Jodie Foster as Clarice Starling, a young FBI trainee who is hunting a serial killer known as \"Buffalo Bill\" (Ted Levine), who skins his female victims. To catch him, she seeks the advice of the imprisoned Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist and cannibalistic serial murderer. The film also features performances by Scott Glenn, Anthony Heald, and Kasi Lemmons.",
+      "rating": {
+        "aggregateRating": 8.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_silence_of_the_lambs_mZjVh0LmZ.jpg"
+      },
+      "runtimeSeconds": 7080,
+      "director": "Jonathan Demme"
+    },
+    {
+      "primaryTitle": "One Battle After Another",
+      "startYear": 2025,
+      "genres": ["Action", "Crime", "Drama", "Thriller"],
+      "plot": "One Battle After Another is a 2025 American epic black comedy action-thriller film produced, written, and directed by Paul Thomas Anderson. It is inspired by the 1990 novel Vineland by Thomas Pynchon. The film's ensemble cast is led by Leonardo DiCaprio, Sean Penn, Benicio del Toro, Regina Hall, Teyana Taylor, and Chase Infiniti. The story follows an ex-revolutionary who is brought back into conflict when his enemy resurfaces after sixteen years.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/one_battle_after_another_DbGGHkClD.jpg"
+      },
+      "runtimeSeconds": 9660,
+      "director": "Paul Thomas Anderson"
+    },
+    {
+      "primaryTitle": "There Will Be Blood",
+      "startYear": 2007,
+      "genres": ["Drama"],
+      "plot": "There Will Be Blood is a 2007 American epic period drama film co-produced, written and directed by Paul Thomas Anderson, loosely based on the 1927 novel Oil! by Upton Sinclair.It stars Daniel Day-Lewis, Paul Dano, Kevin J. O'Connor, Ciarán Hinds, and Dillon Freasier. The film follows silver miner-turned-oilman Daniel Plainview (Day-Lewis) as he embarks on a ruthless quest for wealth during the Californian oil boom in the late 19th and early 20th centuries.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/there_will_be_blood_xQZuty6VZ.jpg"
+      },
+      "runtimeSeconds": 9480,
+      "director": "Paul Thomas Anderson"
+    },
+    {
+      "primaryTitle": "Mystic River",
+      "startYear": 2003,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Mystic River is a 2003 American neo-noir mystery crime drama film. It was directed and co-produced by Clint Eastwood, and stars Sean Penn, Tim Robbins, Kevin Bacon, Laurence Fishburne, Marcia Gay Harden, and Laura Linney. The screenplay, written by Brian Helgeland, was based on the 2001 novel by Dennis Lehane. It is the first film in which Eastwood was credited as composer of the score. The tragic murder of a 19-year-old girl reunites three childhood friends still living in Boston--the victim's gangster father, a detective, and the disturbed man they both suspect of killing her.",
+      "rating": {
+        "aggregateRating": 7.9
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/mystic_river_xVhSJ7k5r.jpg"
+      },
+      "runtimeSeconds": 8280,
+      "director": "Clint Eastwood"
+    },
+    {
       "primaryTitle": "The Shawshank Redemption",
       "startYear": 1994,
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
+      "genres": ["Crime", "Drama"],
       "plot": "The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption. The film tells the story of banker Andy Dufresne (Tim Robbins), who is sentenced to life in Shawshank State Penitentiary for the murders of his wife and her lover, despite his claims of innocence. Over the following two decades, he befriends a fellow prisoner, contraband smuggler Ellis \"Red\" Redding (Morgan Freeman), and becomes instrumental in a money laundering operation led by the prison warden Samuel Norton (Bob Gunton). William Sadler, Clancy Brown, Gil Bellows, and James Whitmore appear in supporting roles.",
       "rating": {
         "aggregateRating": 9.3

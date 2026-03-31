@@ -14,7 +14,7 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const moviesUrl = ''
-const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_cbdeDwR4W.json'
+const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_8r3zDK2K0.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
