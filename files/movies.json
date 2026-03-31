@@ -15,6 +15,174 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "The Killer",
+      "startYear": 2023,
+      "genres": ["Action", "Adventure", "Crime", "Drama", "Thriller"],
+      "plot": "The Killer is a 2023 American action thriller film directed by David Fincher from a screenplay by Andrew Kevin Walker. It is based on the French graphic novel series The Killer written by Alexis \"Matz\" Nolent and illustrated by Luc Jacamon. The film stars Michael Fassbender in the main role alongside Arliss Howard, Charles Parnell, Kerry O'Malley, Sala Baker, Sophie Charlotte, and Tilda Swinton in supporting roles. In the film, Fassbender plays an assassin who embarks on an international vendetta after a hit goes wrong.",
+      "rating": {
+        "aggregateRating": 6.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_killer_4-v85E9SQ.jpg"
+      },
+      "runtimeSeconds": 7080,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "Gone Girl",
+      "startYear": 2014,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "plot": "Gone Girl is a 2014 American psychological thriller film directed by David Fincher and written by Gillian Flynn, based on her 2012 novel of the same name. It stars Ben Affleck, Rosamund Pike, Neil Patrick Harris, Tyler Perry, and Carrie Coon in her film debut. In the film, Nick Dunne (Affleck) becomes the prime suspect in the sudden disappearance of his wife Amy (Pike) in Missouri.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/gone_girl_aFbYNuqXtP.jpg"
+      },
+      "runtimeSeconds": 8940,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "The Girl with the Dragon Tattoo",
+      "startYear": 2011,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "The Girl with the Dragon Tattoo is a 2011 neo-noir mystery thriller film directed by David Fincher from a screenplay by Steven Zaillian. It is based on the 2005 novel of the same name by Stieg Larsson. Starring Daniel Craig as journalist Mikael Blomkvist and Rooney Mara as Lisbeth Salander, it tells the story of Blomkvist's investigation to find out what happened to a girl from a wealthy family who had disappeared 40 years earlier. He recruits the help of Salander, a computer hacker.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_girl_with_the_dragon_tattoo_mDxCMG8V7.jpg"
+      },
+      "runtimeSeconds": 9480,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "The Social Network",
+      "startYear": 2010,
+      "genres": ["Biography", "Drama"],
+      "plot": "The Social Network is a 2010 American biographical drama film directed by David Fincher and written by Aaron Sorkin. Based on the 2009 book The Accidental Billionaires by Ben Mezrich, the film portrays the founding of the social networking website Facebook. It stars Jesse Eisenberg as Facebook founder Mark Zuckerberg, with Andrew Garfield as Eduardo Saverin, Justin Timberlake as Sean Parker, Armie Hammer as Cameron and Tyler Winklevoss, and Max Minghella as Divya Narendra. Neither Zuckerberg nor any other Facebook staff were involved with the project, although Saverin was a consultant for Mezrich's book.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_social_network_vusrtz84F.jpg"
+      },
+      "runtimeSeconds": 7200,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "Zodiac",
+      "startYear": 2007,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Zodiac is a 2007 American historical drama and crime thriller film directed by David Fincher and written by James Vanderbilt, based on the nonfiction books by Robert Graysmith: Zodiac (1986) and Zodiac Unmasked (2002). It stars Jake Gyllenhaal, Mark Ruffalo, and Robert Downey Jr., with Anthony Edwards, Brian Cox, Elias Koteas, Donal Logue, John Carroll Lynch, Chloë Sevigny, Philip Baker Hall, and Dermot Mulroney in supporting roles. The film tells the story of the manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers. The case remains one of the United States' most infamous unsolved crimes. Fincher, Vanderbilt, and producer Bradley J. Fischer spent 18 months conducting their own investigation and research into the Zodiac murders. Fincher employed the digital Thomson Viper FilmStream Camera to photograph most of the film and used traditional high-speed film cameras for slow-motion murder sequences.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/zodiac_y4yvzDuW9.jpg"
+      },
+      "runtimeSeconds": 9420,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "Fight Club",
+      "startYear": 1999,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "plot": "Fight Club is a 1999 American film directed by David Fincher and starring Brad Pitt, Edward Norton, and Helena Bonham Carter. It is based on the 1996 novel by Chuck Palahniuk. Norton plays the unnamed narrator, who is discontented with his white-collar job. He forms a \"fight club\" with a soap salesman, Tyler Durden (Pitt), and becomes embroiled with an impoverished but beguiling woman, Marla Singer (Bonham Carter).",
+      "rating": {
+        "aggregateRating": 8.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/fight_club_s0TKm6C9j.jpg"
+      },
+      "runtimeSeconds": 8340,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "Seven",
+      "startYear": 1995,
+      "genres": ["Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "Seven (often stylized as Se7en) is a 1995 American crime thriller film directed by David Fincher and written by Andrew Kevin Walker. It stars Brad Pitt and Morgan Freeman, with Gwyneth Paltrow and John C. McGinley in supporting roles. Set in an unnamed, crime-ridden city, the narrative follows disenchanted, nearly retired Detective Lieutenant William Somerset and his newly transferred partner David Mills as they try to stop a serial killer from committing a series of murders based on the seven deadly sins.",
+      "rating": {
+        "aggregateRating": 8.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/seven_gE46O2EB9Q.jpg"
+      },
+      "runtimeSeconds": 7620,
+      "director": "David Fincher"
+    },
+    {
+      "primaryTitle": "The Rip",
+      "startYear": 2026,
+      "genres": ["Action", "Crime", "Drama", "Mystery", "Thriller"],
+      "plot": "The Rip is a 2026 American action thriller film written and directed by Joe Carnahan, who developed the story with Michael McGrale. The film stars Matt Damon and Ben Affleck as police officers in the Miami-Dade Police Department narcotics unit. It also stars Steven Yeun, Teyana Taylor, Sasha Calle, Catalina Sandino Moreno, Scott Adkins, and Kyle Chandler. The film is inspired by the true story of Miami-Dade County Police Captain Chris Casiano, and tells the story of a group of police officers who, during a raid on a hidden cash operation, find their trust broken down as team members suspect each other of trying to steal a large sum of cash.",
+      "rating": {
+        "aggregateRating": 6.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_rip_do-5rE7CW.jpg?updatedAt=1774947508235"
+      },
+      "runtimeSeconds": 6780,
+      "director": "Joe Carnahan"
+    },
+    {
+      "primaryTitle": "Ford v Ferrari",
+      "startYear": 2019,
+      "genres": ["Action", "Biography", "Drama", "Sport"],
+      "plot": "Ford v Ferrari (titled Le Mans '66 in some European countries) is a 2019 American biographical sports drama film directed by James Mangold and written by Jez Butterworth, John-Henry Butterworth, and Jason Keller. It stars Matt Damon and Christian Bale, with Jon Bernthal, Caitríona Balfe, Tracy Letts, Josh Lucas, Noah Jupe, Remo Girone, and Ray McKinnon in supporting roles. The plot follows a determined team of American and English engineers and designers, led by automotive designer Carroll Shelby and his English driver, Ken Miles, who are hired by Henry Ford II and Lee Iacocca to build a race car to defeat the perennially dominant Italian racing team Scuderia Ferrari at the 1966 24 Hours of Le Mans race in France.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/ford_v_ferrari_iXrO9-Hx7.jpg"
+      },
+      "runtimeSeconds": 9120,
+      "director": "James Mangold"
+    },
+    {
+      "primaryTitle": "Contagion",
+      "startYear": 2011,
+      "genres": ["Drama", "Thriller"],
+      "plot": "Contagion is a 2011 American medical thriller film directed by Steven Soderbergh. Its ensemble cast includes Matt Damon, Laurence Fishburne, Jude Law, Marion Cotillard, Kate Winslet, and Gwyneth Paltrow. The plot concerns the spread of a highly contagious virus transmitted through respiratory droplets and fomites, attempts by medical researchers and public health officials to identify and contain the disease, the loss of social order as the virus turns into a worldwide pandemic, and the introduction of a vaccine to halt its spread. To follow several interacting plot lines, the film makes use of the multi-narrative \"hyperlink cinema\" style, popularized in several of Soderbergh's films. The film was inspired by real-life outbreaks such as the 2002–2004 SARS outbreak and the 2009 flu pandemic.",
+      "rating": {
+        "aggregateRating": 6.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/contagion_nd74XHf9m.jpg"
+      },
+      "runtimeSeconds": 6360,
+      "director": "Steven Soderbergh"
+    },
+    {
+      "primaryTitle": "Ocean's Eleven",
+      "startYear": 2001,
+      "genres": ["Crime", "Thriller"],
+      "plot": "Ocean's Eleven is a 2001 American heist comedy film directed by Steven Soderbergh from a screenplay by Ted Griffin. The first installment in the Ocean's film trilogy, it is a remake of the 1960 Rat Pack film. The film features an ensemble cast including George Clooney, Matt Damon, Andy García, Brad Pitt, Julia Roberts, Casey Affleck, Don Cheadle, Scott Caan, Elliott Gould, Bernie Mac and Carl Reiner. The story follows friends Danny Ocean (Clooney) and Rusty Ryan (Pitt), who plan a heist of $160 million from casino owner Terry Benedict (García), the lover of Ocean's ex-wife Tess (Roberts).",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/oceans_eleven_6Eyj1s6uR.jpg"
+      },
+      "runtimeSeconds": 6960,
+      "director": "Steven Soderbergh"
+    },
+    {
+      "primaryTitle": "Good Will Hunting",
+      "startYear": 1997,
+      "genres": ["Drama", "Romance"],
+      "plot": "Good Will Hunting is a 1997 American drama film directed by Gus Van Sant and written by Ben Affleck and Matt Damon. It stars Robin Williams, Damon, Affleck, Stellan Skarsgård, and Minnie Driver, with Casey Affleck and Cole Hauser in supporting roles. Set in Boston, the film follows Will Hunting (Damon), a troubled but self-taught mathematical genius working as a janitor at MIT, whose talent is discovered by professor Gerald Lambeau (Skarsgård). To avoid jail, Will agrees to study under Lambeau while attending therapy with psychologist Sean Maguire (Williams), which forces him to confront his past and his relationships, including with Harvard student Skylar (Driver).",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/good_will_hunting_gvben0Xy0.jpg"
+      },
+      "runtimeSeconds": 7560,
+      "director": "Gus Van Sant"
+    },
+    {
       "primaryTitle": "The Promised Land",
       "startYear": 2023,
       "genres": ["Action", "Biography", "Drama", "History"],
