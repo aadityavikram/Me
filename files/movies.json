@@ -15,6 +15,146 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "Oppenheimer",
+      "startYear": 2023,
+      "genres": ["Biography", "Drama", "History"],
+      "plot": "Oppenheimer is a 2023 epic biographical thriller film written, co-produced, and directed by Christopher Nolan. It follows the life of J. Robert Oppenheimer, the American theoretical physicist who helped develop the first nuclear weapons during World War II. Based on the 2005 biography American Prometheus by Kai Bird and Martin J. Sherwin, the film dramatizes Oppenheimer's studies, his direction of the Los Alamos Laboratory and his 1954 security hearing. Cillian Murphy stars as Oppenheimer, alongside Robert Downey Jr. as the United States Atomic Energy Commission member Lewis Strauss. The ensemble supporting cast includes Emily Blunt, Matt Damon, Florence Pugh, Josh Hartnett, Casey Affleck, Rami Malek, and Kenneth Branagh.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/oppenheimer_jDX4hRRYr.jpg"
+      },
+      "runtimeSeconds": 10800,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Tenet",
+      "startYear": 2020,
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "plot": "Tenet (stylized in all caps) is a 2020 science fiction action thriller film written and directed by Christopher Nolan, who also produced it with his wife Emma Thomas. It stars John David Washington, Robert Pattinson, Elizabeth Debicki, Dimple Kapadia, Michael Caine, and Kenneth Branagh. The film follows a former CIA officer who is recruited into a secret organization, tasked with tracing the origin of objects that are traveling backward through time and their connection to an attack from the future to the present.",
+      "rating": {
+        "aggregateRating": 7.3
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/tenet_pFmBKDyQ7.jpg"
+      },
+      "runtimeSeconds": 9000,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Interstellar",
+      "startYear": 2014,
+      "genres": ["Adventure", "Drama", "Sci-Fi"],
+      "plot": "Interstellar is a 2014 epic science fiction film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan. It features an ensemble cast led by Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, and Michael Caine. Set in a dystopian future where Earth is suffering from catastrophic blight and famine, the film follows a group of astronauts who travel through space in search of a new home for humanity.",
+      "rating": {
+        "aggregateRating": 8.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/interstellar_k4wpFEVW2.jpg"
+      },
+      "runtimeSeconds": 10140,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Inception",
+      "startYear": 2010,
+      "genres": ["Action", "Adventure", "Sci-Fi", "Thriller"],
+      "plot": "Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine.",
+      "rating": {
+        "aggregateRating": 8.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/inception_VH2RhY9g2.jpg"
+      },
+      "runtimeSeconds": 8880,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "The Prestige",
+      "startYear": 2006,
+      "genres": ["Drama", "Mystery", "Sci-Fi", "Thriller"],
+      "plot": "The Prestige is a 2006 science fiction psychological thriller film directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, based on the 1995 novel by Christopher Priest. Set in Victorian London, the film stars Hugh Jackman and Christian Bale as stage magicians who compete to create a superior teleportation illusion.",
+      "rating": {
+        "aggregateRating": 8.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_prestige_jJ2cGB8-K.jpg"
+      },
+      "runtimeSeconds": 7800,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Batman Begins",
+      "startYear": 2005,
+      "genres": ["Action", "Crime" ,"Drama", "Thriller"],
+      "plot": "Batman Begins is a 2005 superhero film based on the DC Comics character Batman. Directed by Christopher Nolan, who co-wrote the screenplay with David S. Goyer, the film stars Christian Bale as Bruce Wayne / Batman, with Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson, Rutger Hauer, Ken Watanabe, and Morgan Freeman in supporting roles. The film reboots the Batman film series, telling the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul (Neeson) and the Scarecrow (Murphy) from plunging Gotham City into chaos.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/batman_begins__u8lj9-KH.jpg"
+      },
+      "runtimeSeconds": 8400,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "The Dark Knight",
+      "startYear": 2008,
+      "genres": ["Action", "Crime" ,"Drama", "Thriller"],
+      "plot": "The Dark Knight is a 2008 superhero film directed by Christopher Nolan, from a screenplay co-written with his brother Jonathan. Based on the DC Comics superhero Batman, it is the sequel to Batman Begins (2005), and the second installment in The Dark Knight trilogy. The plot follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who form an alliance to dismantle organized crime in Gotham City. Their efforts are derailed by the Joker, an anarchistic mastermind who seeks to test how far Batman will go to save the city from chaos. The ensemble cast includes Christian Bale, Michael Caine, Heath Ledger, Gary Oldman, Aaron Eckhart, Maggie Gyllenhaal, and Morgan Freeman.",
+      "rating": {
+        "aggregateRating": 9.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_dark_knight_h5cATleJ3.jpg"
+      },
+      "runtimeSeconds": 9120,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "The Dark Knight Rises",
+      "startYear": 2012,
+      "genres": ["Action", "Crime" ,"Drama", "Thriller"],
+      "plot": "The Dark Knight Rises is a 2012 superhero film based on the DC Comics character Batman. Directed by Christopher Nolan, who co-wrote the screenplay with his brother Jonathan Nolan, and the story with David S. Goyer, it is the final installment in Nolan's The Dark Knight trilogy, and the sequel to The Dark Knight (2008). The film stars Christian Bale as Bruce Wayne / Batman, alongside Anne Hathaway, Gary Oldman, Tom Hardy, Morgan Freeman, Marion Cotillard, Joseph Gordon-Levitt, and Michael Caine. Set eight years after the events of The Dark Knight, it follows a retired Wayne being forced to resume his role as Batman to save Gotham City from nuclear destruction at the hands of the terrorist Bane (Hardy).",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_dark_knight_rises_GHdkjOZRq.jpg"
+      },
+      "runtimeSeconds": 9840,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Insomnia",
+      "startYear": 2002,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "plot": "Insomnia is a 2002 American neo-noir psychological thriller film directed by Christopher Nolan and written by Hillary Seitz; it is the only film directed by Nolan that he is not credited with writing. A remake of the 1997 Norwegian film, it stars Al Pacino, Robin Williams, and Hilary Swank, with Maura Tierney, Martin Donovan, Nicky Katt, and Paul Dooley in supporting roles.\n\nThe film follows two Los Angeles homicide detectives investigating a murder in Nightmute, Alaska. After the killer witnesses an accidental shooting committed by one of the detectives, they create a plan for both parties to mutually avoid prosecution.",
+      "rating": {
+        "aggregateRating": 7.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/insomnia_IfWvAIt1R.jpg"
+      },
+      "runtimeSeconds": 7080,
+      "director": "Christopher Nolan"
+    },
+    {
+      "primaryTitle": "Memento",
+      "startYear": 2000,
+      "genres": ["Drama", "Mystery", "Thriller"],
+      "plot": "Memento is a 2000 American psychological thriller film and neo noir written and directed by Christopher Nolan, based on the short story \"Memento Mori\" by his brother Jonathan Nolan, which was later published in 2001. The film stars Guy Pearce, Carrie-Anne Moss, and Joe Pantoliano. It follows Leonard Shelby (Pearce), a man who has anterograde amnesia—resulting in short-term memory loss and the inability to form new long-term memories—who uses an elaborate system of photographs, handwritten notes, and tattoos sprawled across his body in an attempt to uncover the perpetrator who killed his wife and caused him to sustain the condition.",
+      "rating": {
+        "aggregateRating": 8.4
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/memento_KID6XfWEY.jpg"
+      },
+      "runtimeSeconds": 6780,
+      "director": "Christopher Nolan"
+    },
+    {
       "primaryTitle": "Dune: Part One",
       "startYear": 2021,
       "genres": ["Action", "Adventure", "Drama", "Sci-Fi"],
