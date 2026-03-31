@@ -15,6 +15,34 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "One Battle After Another",
+      "startYear": 2025,
+      "genres": ["Action", "Crime", "Drama", "Thriller"],
+      "plot": "One Battle After Another is a 2025 American epic black comedy action-thriller film produced, written, and directed by Paul Thomas Anderson. It is inspired by the 1990 novel Vineland by Thomas Pynchon. The film's ensemble cast is led by Leonardo DiCaprio, Sean Penn, Benicio del Toro, Regina Hall, Teyana Taylor, and Chase Infiniti. The story follows an ex-revolutionary who is brought back into conflict when his enemy resurfaces after sixteen years.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/one_battle_after_another_DbGGHkClD.jpg"
+      },
+      "runtimeSeconds": 9660,
+      "director": "Paul Thomas Anderson"
+    },
+    {
+      "primaryTitle": "Mickey 17",
+      "startYear": 2025,
+      "genres": ["Adventure", "Comedy", "Fantasy", "Sci-Fi"],
+      "plot": "Mickey 17 is a 2025 science fiction black comedy film written, produced, and directed by Bong Joon Ho, based on the 2022 novel Mickey7 by Edward Ashton. The film stars Robert Pattinson in the title role, alongside Naomi Ackie, Steven Yeun, Patsy Ferran, Cameron Britton, Daniel Henshall, Stephen Park, Anamaria Vartolomei, Toni Collette, and Mark Ruffalo. Set in the year 2054, the plot follows a man who joins a space colony voyage as an \"Expendable\", a disposable worker who is cloned every time he dies.",
+      "rating": {
+        "aggregateRating": 6.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/mickey_17_p1jC8kN9m.jpg"
+      },
+      "runtimeSeconds": 8220,
+      "director": "Bong Joon Ho"
+    },
+    {
       "primaryTitle": "Oppenheimer",
       "startYear": 2023,
       "genres": ["Biography", "Drama", "History"],
@@ -743,6 +771,20 @@
       "director": "Anthony Russo, Joe Russo"
     },
     {
+      "primaryTitle": "Deadpool",
+      "startYear": 2016,
+      "genres": ["Action", "Comedy", "Sci-Fi"],
+      "plot": "Deadpool is a 2016 American superhero film based on the Marvel Comics character Wade Wilson / Deadpool. Directed by Tim Miller, in his feature directorial debut, and written by Rhett Reese and Paul Wernick, it is a spin-off of the X-Men film series and its overall eighth installment. Ryan Reynolds stars as the titular character, alongside Morena Baccarin, Ed Skrein, T.J. Miller, Gina Carano, and Brianna Hildebrand. In the film, Wilson hunts the man responsible for giving him mutant abilities and a scarred physical appearance, becoming the antihero Deadpool.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/deadpool_BpM6lFZID.jpg"
+      },
+      "runtimeSeconds": 6480,
+      "director": "Tim Miller"
+    },
+    {
       "primaryTitle": "Doctor Strange",
       "startYear": 2016,
       "genres": ["Action", "Adventure", "Fantasy", "Sci-Fi"],
@@ -953,20 +995,6 @@
       "director": "Zack Snyder"
     },
     {
-      "primaryTitle": "Deadpool",
-      "startYear": 2016,
-      "genres": ["Action", "Comedy", "Sci-Fi"],
-      "plot": "Deadpool is a 2016 American superhero film based on the Marvel Comics character Wade Wilson / Deadpool. Directed by Tim Miller, in his feature directorial debut, and written by Rhett Reese and Paul Wernick, it is a spin-off of the X-Men film series and its overall eighth installment. Ryan Reynolds stars as the titular character, alongside Morena Baccarin, Ed Skrein, T.J. Miller, Gina Carano, and Brianna Hildebrand. In the film, Wilson hunts the man responsible for giving him mutant abilities and a scarred physical appearance, becoming the antihero Deadpool.",
-      "rating": {
-        "aggregateRating": 8
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/deadpool_BpM6lFZID.jpg"
-      },
-      "runtimeSeconds": 6480,
-      "director": "Tim Miller"
-    },
-    {
       "primaryTitle": "American Sniper",
       "startYear": 2014,
       "genres": ["Action", "Biography", "Drama", "War"],
@@ -995,15 +1023,15 @@
       "director": "Neil Burger"
     },
     {
-      "primaryTitle": "The Hangover Part III",
-      "startYear": 2013,
-      "genres": ["Comedy", "Crime"],
-      "plot": "The Hangover Part III is a 2013 American comedy film co-produced and directed by Todd Phillips from a script he wrote with Craig Mazin. It is the sequel to The Hangover Part II (2011) and the final installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Ken Jeong, Justin Bartha, Mike Epps, Sasha Barrese, Gillian Vigman, Mike Vallely, Grant Holmquist, Jamie Chung, Sondra Currie, Heather Graham, Jeffrey Tambor, and Phillips reprising their roles from the previous two installments joined by Melissa McCarthy and John Goodman. In the film, the \"Wolfpack\" (Phil, Stu, Doug, and Alan) seek help for Alan after his mental breakdown, only for things to go awry when an incident from the original film comes back to haunt them.",
+      "primaryTitle": "The Hangover",
+      "startYear": 2009,
+      "genres": ["Comedy"],
+      "plot": "The Hangover is a 2009 American comedy film directed by Todd Phillips, and written by Jon Lucas and Scott Moore. It is the first installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Heather Graham, Justin Bartha, and Jeffrey Tambor. It tells the story of Phil Wenneck (Cooper), Stu Price (Helms), Alan Garner (Galifianakis), and Doug Billings (Bartha), who travel to Las Vegas for a bachelor party to celebrate Doug's impending marriage. However, Phil, Stu, and Alan wake up with Doug missing and no memory of the previous night's events, and must find Doug before the wedding can take place.",
       "rating": {
-        "aggregateRating": 5.9
+        "aggregateRating": 7.7
       },
       "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_3_JvpxCFHcY.jpg"
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_1_W5FwnfVIL.jpg"
       },
       "runtimeSeconds": 6000,
       "director": "Todd Phillips"
@@ -1023,15 +1051,15 @@
       "director": "Todd Phillips"
     },
     {
-      "primaryTitle": "The Hangover",
-      "startYear": 2009,
-      "genres": ["Comedy"],
-      "plot": "The Hangover is a 2009 American comedy film directed by Todd Phillips, and written by Jon Lucas and Scott Moore. It is the first installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Heather Graham, Justin Bartha, and Jeffrey Tambor. It tells the story of Phil Wenneck (Cooper), Stu Price (Helms), Alan Garner (Galifianakis), and Doug Billings (Bartha), who travel to Las Vegas for a bachelor party to celebrate Doug's impending marriage. However, Phil, Stu, and Alan wake up with Doug missing and no memory of the previous night's events, and must find Doug before the wedding can take place.",
+      "primaryTitle": "The Hangover Part III",
+      "startYear": 2013,
+      "genres": ["Comedy", "Crime"],
+      "plot": "The Hangover Part III is a 2013 American comedy film co-produced and directed by Todd Phillips from a script he wrote with Craig Mazin. It is the sequel to The Hangover Part II (2011) and the final installment in The Hangover trilogy. The film stars Bradley Cooper, Ed Helms, Zach Galifianakis, Ken Jeong, Justin Bartha, Mike Epps, Sasha Barrese, Gillian Vigman, Mike Vallely, Grant Holmquist, Jamie Chung, Sondra Currie, Heather Graham, Jeffrey Tambor, and Phillips reprising their roles from the previous two installments joined by Melissa McCarthy and John Goodman. In the film, the \"Wolfpack\" (Phil, Stu, Doug, and Alan) seek help for Alan after his mental breakdown, only for things to go awry when an incident from the original film comes back to haunt them.",
       "rating": {
-        "aggregateRating": 7.7
+        "aggregateRating": 5.9
       },
       "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_1_W5FwnfVIL.jpg"
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hangover_3_JvpxCFHcY.jpg"
       },
       "runtimeSeconds": 6000,
       "director": "Todd Phillips"
@@ -1555,20 +1583,6 @@
       "director": "Steven Spielberg"
     },
     {
-      "primaryTitle": "Mickey 17",
-      "startYear": 2025,
-      "genres": ["Adventure", "Comedy", "Fantasy", "Sci-Fi"],
-      "plot": "Mickey 17 is a 2025 science fiction black comedy film written, produced, and directed by Bong Joon Ho, based on the 2022 novel Mickey7 by Edward Ashton. The film stars Robert Pattinson in the title role, alongside Naomi Ackie, Steven Yeun, Patsy Ferran, Cameron Britton, Daniel Henshall, Stephen Park, Anamaria Vartolomei, Toni Collette, and Mark Ruffalo. Set in the year 2054, the plot follows a man who joins a space colony voyage as an \"Expendable\", a disposable worker who is cloned every time he dies.",
-      "rating": {
-        "aggregateRating": 6.7
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/mickey_17_p1jC8kN9m.jpg"
-      },
-      "runtimeSeconds": 8220,
-      "director": "Bong Joon Ho"
-    },
-    {
       "primaryTitle": "Parasite",
       "startYear": 2019,
       "genres": ["Drama", "Thriller"],
@@ -1653,20 +1667,6 @@
       "director": "James Cameron"
     },
     {
-      "primaryTitle": "Terminator 2: Judgment Day",
-      "startYear": 1991,
-      "genres": ["Action", "Adventure", "Sci-Fi"],
-      "plot": "Terminator 2: Judgment Day is a 1991 American science fiction action film directed by James Cameron, who co-wrote the script with William Wisher. Starring Arnold Schwarzenegger, Linda Hamilton, and Robert Patrick, it is the sequel to The Terminator (1984) and is the second installment in the Terminator franchise. In the film, the malevolent artificial intelligence Skynet sends a Terminator—a highly advanced killing machine—back in time to 1995 to kill the future leader of the human resistance, John Connor, when he is a child. The resistance sends back a less advanced, reprogrammed Terminator to protect Connor and ensure the future of humanity.",
-      "rating": {
-        "aggregateRating": 8.6
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/terminator_2_judgment_day_75BssiCVk.jpg"
-      },
-      "runtimeSeconds": 8220,
-      "director": "James Cameron"
-    },
-    {
       "primaryTitle": "The Terminator",
       "startYear": 1984,
       "genres": ["Action", "Adventure", "Sci-Fi"],
@@ -1678,6 +1678,20 @@
         "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_terminator_iJMS8eQpG.jpg"
       },
       "runtimeSeconds": 6420,
+      "director": "James Cameron"
+    },
+    {
+      "primaryTitle": "Terminator 2: Judgment Day",
+      "startYear": 1991,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "plot": "Terminator 2: Judgment Day is a 1991 American science fiction action film directed by James Cameron, who co-wrote the script with William Wisher. Starring Arnold Schwarzenegger, Linda Hamilton, and Robert Patrick, it is the sequel to The Terminator (1984) and is the second installment in the Terminator franchise. In the film, the malevolent artificial intelligence Skynet sends a Terminator—a highly advanced killing machine—back in time to 1995 to kill the future leader of the human resistance, John Connor, when he is a child. The resistance sends back a less advanced, reprogrammed Terminator to protect Connor and ensure the future of humanity.",
+      "rating": {
+        "aggregateRating": 8.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/terminator_2_judgment_day_75BssiCVk.jpg"
+      },
+      "runtimeSeconds": 8220,
       "director": "James Cameron"
     },
     {
@@ -1917,20 +1931,6 @@
       },
       "runtimeSeconds": 7080,
       "director": "Jonathan Demme"
-    },
-    {
-      "primaryTitle": "One Battle After Another",
-      "startYear": 2025,
-      "genres": ["Action", "Crime", "Drama", "Thriller"],
-      "plot": "One Battle After Another is a 2025 American epic black comedy action-thriller film produced, written, and directed by Paul Thomas Anderson. It is inspired by the 1990 novel Vineland by Thomas Pynchon. The film's ensemble cast is led by Leonardo DiCaprio, Sean Penn, Benicio del Toro, Regina Hall, Teyana Taylor, and Chase Infiniti. The story follows an ex-revolutionary who is brought back into conflict when his enemy resurfaces after sixteen years.",
-      "rating": {
-        "aggregateRating": 7.7
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/one_battle_after_another_DbGGHkClD.jpg"
-      },
-      "runtimeSeconds": 9660,
-      "director": "Paul Thomas Anderson"
     },
     {
       "primaryTitle": "There Will Be Blood",
