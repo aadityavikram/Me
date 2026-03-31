@@ -15,6 +15,20 @@
       "director": "Phil Lord, Chris Miller"
     },
     {
+      "primaryTitle": "The Promised Land",
+      "startYear": 2023,
+      "genres": ["Action", "Biography", "Drama", "History"],
+      "plot": "The Promised Land (Danish: Bastarden) is a 2023 epic historical drama film directed by Nikolaj Arcel and written by Arcel and Anders Thomas Jensen. Based on the 2020 book The Captain and Ann Barbara by Ida Jessen, the film is a joint Danish-German-Swedish co-production starring Mads Mikkelsen, Amanda Collin and Simon Bennebjerg, and with Kristine Kujath Thorp, Gustav Lindh, Jakob Lohmann, Morten Hee Andersen, Magnus Krepper and Felix Kramer in supporting roles. The story of Danish soldier and explorer Ludvig Kahlen, who explored and cultivated Denmark's wild Jutland, which now comprises the vast majority of the country, in the mid-18th century.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_promised_land_RwFB6ETBp.jpg"
+      },
+      "runtimeSeconds": 7620,
+      "director": "Nikolaj Arcel"
+    },
+    {
       "primaryTitle": "Polar",
       "startYear": 2019,
       "genres": ["Action", "Crime", "Thriller"],
