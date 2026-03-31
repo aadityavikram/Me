@@ -5,6 +5,7 @@ const lightboxImg = document.getElementById('lightbox-img');
 const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxLength = document.getElementById('lightbox-length');
 const lightboxDesc = document.getElementById('lightbox-desc');
+const lightboxDirector = document.getElementById('lightbox-director');
 
 const genresContainer = document.getElementById("lightbox-genres");
 
@@ -13,7 +14,7 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const moviesUrl = ''
-const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_I13GdOsAO.json'
+const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_cbdeDwR4W.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -102,6 +103,9 @@ function updateLightbox() {
       lightboxLength.textContent = secondsToHHMMSS(movie.runtimeSeconds);
     }
     setGenres(movie.genres)
+    if (movie.director !== undefined) {
+        lightboxDirector.textContent = "Director: " + movie.director;
+    }
     lightboxDesc.textContent = movie.plot;
 }
 

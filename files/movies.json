@@ -1,6 +1,22 @@
 {
   "titles":[
     {
+      "primaryTitle": "There Will Be Blood",
+      "startYear": 2007,
+      "genres": [
+        "Drama"
+      ],
+      "plot": "There Will Be Blood is a 2007 American epic period drama film co-produced, written and directed by Paul Thomas Anderson, loosely based on the 1927 novel Oil! by Upton Sinclair.It stars Daniel Day-Lewis, Paul Dano, Kevin J. O'Connor, Ciarán Hinds, and Dillon Freasier. The film follows silver miner-turned-oilman Daniel Plainview (Day-Lewis) as he embarks on a ruthless quest for wealth during the Californian oil boom in the late 19th and early 20th centuries.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/there_will_be_blood_xQZuty6VZ.jpg"
+      },
+      "runtimeSeconds": 9480,
+      "director": "Paul Thomas Anderson"
+    },
+    {
       "primaryTitle": "Project Hail Mary",
       "startYear": 2026,
       "genres": [
@@ -15,7 +31,8 @@
       "primaryImage": {
         "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/project_hail_mary_BNO1cVXxp.jpg"
       },
-      "runtimeSeconds": 9360
+      "runtimeSeconds": 9360,
+      "director": "Phil Lord, Chris Miller"
     },
     {
       "primaryTitle": "The Shawshank Redemption",
@@ -31,7 +48,8 @@
       "primaryImage": {
         "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/shawshank_redemption_ZsXjSQYeh.jpg"
       },
-      "runtimeSeconds": 8520
+      "runtimeSeconds": 8520,
+      "director": "Frank Darabont"
     }
   ]
 }

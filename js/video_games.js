@@ -5,6 +5,7 @@ const lightboxImg = document.getElementById('lightbox-img');
 const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxLength = document.getElementById('lightbox-length');
 const lightboxDesc = document.getElementById('lightbox-desc');
+const lightboxDirector = document.getElementById('lightbox-director');
 
 const genresContainer = document.getElementById("lightbox-genres");
 
@@ -13,7 +14,7 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const videoGamesUrl = ''
-const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_a-3YnJ3Mr.json'
+const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_Q8po5BVAd.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -102,6 +103,9 @@ function updateLightbox() {
       lightboxLength.textContent = secondsToHHMMSS(videoGames.runtimeSeconds);
     }
     setGenres(videoGames.genres)
+    if (videoGames.director !== undefined) {
+        lightboxDirector.textContent = "Director: " + videoGames.director;
+    }
     lightboxDesc.textContent = videoGames.plot;
 }
 
