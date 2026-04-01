@@ -101,7 +101,7 @@ function updateLightbox() {
 
     lightboxTitle.textContent = `${tvSeries.primaryTitle} (${tvSeries.startYear})`;
     if (tvSeries.runtimeSeconds !== undefined) {
-      lightboxLength.textContent = secondsToHHMMSS(tvSeries.runtimeSeconds);
+      lightboxLength.textContent = secondsToHHMM(tvSeries.runtimeSeconds);
     }
     setGenres(tvSeries.genres)
     if (movie.language !== undefined) {
@@ -124,15 +124,14 @@ function setGenres(genresArray) {
   });
 }
 
-function secondsToHHMMSS(totalSeconds) {
+function secondsToHHMM(totalSeconds) {
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
-  const seconds = totalSeconds % 60;
 
   // Pad with leading zeros
   const pad = (num) => String(num).padStart(2, '0');
 
-  return `${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
+  return `${pad(hours)}h ${pad(minutes)}m`;
 }
 
 /* ---------- CLOSE ---------- */
