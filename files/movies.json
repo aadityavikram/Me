@@ -393,6 +393,118 @@
       "director": "Sam Raimi"
     },
     {
+      "primaryTitle": "A Beautiful Mind",
+      "startYear": 2001,
+      "genres": ["Biography", "Drama", "Mystery"],
+      "plot": "A Beautiful Mind is a 2001 American biographical drama film about the mathematician John Nash who won a Nobel Memorial Prize in Economic Sciences. Nash's character was played by actor Russell Crowe. The film was directed by Ron Howard and based on a screenplay by Akiva Goldsman, who adapted the 1998 biography by Sylvia Nasar. In addition to Crowe, the film's cast features Ed Harris, Jennifer Connelly, Paul Bettany, Adam Goldberg, Judd Hirsch, Josh Lucas, Anthony Rapp, and Christopher Plummer in supporting roles. The story begins as Nash being portrayed as a brilliant but socially awkward mathematics doctoral student at Princeton University.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/a_beautiful_mind_-z0W_pVmo.jpg"
+      },
+      "runtimeSeconds": 8100,
+      "director": "Ron Howard"
+    },
+    {
+      "primaryTitle": "300",
+      "startYear": 2006,
+      "genres": ["Action", "Drama"],
+      "plot": "300 is a 2006 American epic historical action film directed by Zack Snyder, who co-wrote the screenplay with Kurt Johnstad and Michael B. Gordon. It is based on the 1998 Dark Horse comic book limited series of the same name by Frank Miller and Lynn Varley. The film, like its source material, is a fictionalized retelling of the Battle of Thermopylae in the Greco-Persian Wars. The plot revolves around King Leonidas (Gerard Butler), who leads 300 Spartans into battle against the Persian \"God-King\" Xerxes (Rodrigo Santoro) and his invading army of more than 300,000 soldiers. As the battle rages, Queen Gorgo (Lena Headey) attempts to rally support in Sparta for her husband. The film also features Michael Fassbender in his film debut.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/300_mgBwh6oww.jpg"
+      },
+      "runtimeSeconds": 7020,
+      "director": "Zack Snyder"
+    },
+    {
+      "primaryTitle": "Prince of Persia: The Sands of Time",
+      "startYear": 2010,
+      "genres": ["Action", "Adventure", "Fantasy"],
+      "plot": "Prince of Persia: The Sands of Time is a 2010 action fantasy film based on the video game series Prince of Persia created by Jordan Mechner. It was directed by Mike Newell from a screenplay by Boaz Yakin, Doug Miro, and Carlo Bernard, based on a story by Mechner. The film stars Jake Gyllenhaal, Ben Kingsley, Gemma Arterton, and Alfred Molina. It is an adaptation of the 2003 video game of the same name published by Ubisoft. Elements from its sequels Warrior Within (2004) and The Two Thrones (2005) are also incorporated.",
+      "rating": {
+        "aggregateRating": 6.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/prince_of_persia_the_sands_of_time_S9e9ot0aC.jpg"
+      },
+      "runtimeSeconds": 6960,
+      "director": "Mike Newell"
+    },
+    {
+      "primaryTitle": "Donnie Brasco",
+      "startYear": 1997,
+      "genres": ["Biography", "Crime", "Drama"],
+      "plot": "Donnie Brasco is a 1997 American crime drama film directed by Mike Newell and starring Al Pacino and Johnny Depp. Michael Madsen, Bruno Kirby, James Russo, and Anne Heche also feature in supporting roles. The film, written by Paul Attanasio, is based on the 1988 nonfiction book Donnie Brasco: My Undercover Life in the Mafia by Joseph D. Pistone and Richard Woodley. The film is based on the true story of Pistone (Depp), an undercover FBI agent who infiltrated the Bonanno crime family in New York City during the 1970s, under the alias Donnie Brasco, a jewel thief from Vero Beach, Florida. Brasco maneuvers his way into the confidence of an aging Mafia hitman, Lefty Ruggiero (Pacino), who vouches for him. As Donnie moves deeper into the Mafia, he realizes that not only is he crossing the line between federal agent and criminal, but also leading his friend Lefty to an almost certain death.",
+      "rating": {
+        "aggregateRating": 7.7
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/donnie_brasco_w1N9Gukse.jpg"
+      },
+      "runtimeSeconds": 7620,
+      "director": "Mike Newell"
+    },
+    {
+      "primaryTitle": "Donnie Darko",
+      "startYear": 2001,
+      "genres": ["Drama", "Mystery", "Sci-Fi", "Thriller"],
+      "plot": "Donnie Darko is a 2001 American science fiction psychological thriller film written and directed by Richard Kelly in his directorial debut, and produced by Flower Films. It stars Jake Gyllenhaal, Jena Malone, Drew Barrymore, Mary McDonnell, Katharine Ross, Patrick Swayze and Noah Wyle, with Seth Rogen in his film debut. Set in October 1988, the film follows Donnie Darko (Gyllenhaal), a troubled teenager who inadvertently escapes a bizarre accident by sleepwalking. He has visions of Frank, a mysterious figure in a rabbit costume who informs him that the world will end in 28 days.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/donnie_darko_zv339PRAG.jpg"
+      },
+      "runtimeSeconds": 6780,
+      "director": "Richard Kelly"
+    },
+    {
+      "primaryTitle": "V for Vendetta",
+      "startYear": 2005,
+      "genres": ["Action", "Drama", "Sci-Fi", "Thriller"],
+      "plot": "V for Vendetta is a 2005 dystopian thriller film directed by James McTeigue from a screenplay by the Wachowskis. It was McTeigue's directorial debut. It is based on the 1988–89 DC Vertigo Comics limited series graphic novel V for Vendetta by Alan Moore, David Lloyd, and Tony Weare. The cast includes Natalie Portman, Hugo Weaving, Stephen Rea and John Hurt. The film, which is set in a future where a fascist totalitarian regime has subjugated the United Kingdom, centres on V (Weaving), a masked vigilante who attempts to ignite a revolution, and Evey Hammond (Portman), a young woman caught up in V's plot.",
+      "rating": {
+        "aggregateRating": 8.1
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/v_for_vendetta_rnjXRDWby.jpg"
+      },
+      "runtimeSeconds": 7920,
+      "director": "James McTeigue"
+    },
+    {
+      "primaryTitle": "No Country for Old Men",
+      "startYear": 2007,
+      "genres": ["Crime", "Drama", "Thriller"],
+      "plot": "No Country for Old Men is a 2007 American neo-Western crime thriller film written, directed, produced, and edited by Joel and Ethan Coen, based on Cormac McCarthy's 2005 novel. Starring Tommy Lee Jones, Javier Bardem, and Josh Brolin, the film is set in the desert landscape of 1980 West Texas, United States. The film revisits the themes of fate, conscience, and circumstance that the Coen brothers had explored in the films Blood Simple (1984), Raising Arizona (1987), and Fargo (1996). It follows three main characters: Llewelyn Moss (Brolin), a Vietnam War veteran and welder who stumbles upon a large sum of money in the desert, Anton Chigurh (Bardem), a hitman who is sent to recover the money, and Ed Tom Bell (Jones), a sheriff investigating the crime. The film also stars Kelly Macdonald as Moss's wife, Carla Jean, and Woody Harrelson as Carson Wells, a bounty hunter seeking Moss and the return of the money.",
+      "rating": {
+        "aggregateRating": 8.2
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/no_country_for_old_men_napORJI2R.jpg"
+      },
+      "runtimeSeconds": 7320,
+      "director": "Joel Coen, Ethan Coen"
+    },
+    {
+      "primaryTitle": "Blood Diamond",
+      "startYear": 2006,
+      "genres": ["Adventure", "Drama", "Thriller"],
+      "plot": "Blood Diamond is a 2006 American political war thriller film directed and co-produced by Edward Zwick and starring Leonardo DiCaprio, Jennifer Connelly and Djimon Hounsou. The title refers to blood diamonds, which are diamonds mined in war zones and sold to finance conflicts, thereby profiting warlords and diamond companies around the world. Set during the Sierra Leone Civil War of 1991–2002, the film depicts a country torn apart by the struggle between government loyalists and insurgent forces. It also portrays many of the atrocities of that war, including the rebels' amputation of civilians' hands to discourage them from voting in upcoming elections.",
+      "rating": {
+        "aggregateRating": 8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/blood_diamond_rEvDBrPFke.jpg"
+      },
+      "runtimeSeconds": 8580,
+      "director": "Edward Zwick"
+    },
+    {
       "primaryTitle": "The Menu",
       "startYear": 2022,
       "genres": ["Comedy", "Horror", "Thriller"],
