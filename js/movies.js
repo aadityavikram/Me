@@ -8,6 +8,8 @@ const lightboxDesc = document.getElementById('lightbox-desc');
 const lightboxDirector = document.getElementById('lightbox-director');
 const lightboxLanguage = document.getElementById('lightbox-language');
 
+const movieCount = document.getElementById('movie-count')
+
 const genresContainer = document.getElementById("lightbox-genres");
 
 let currentIndex = 0;
@@ -75,6 +77,7 @@ function renderGallery() {
 
     gallery.appendChild(card);
   });
+  movieCount.textContent = `Total: ${moviesData.titles.length}`;
 
   attachClickEvents();
 }
