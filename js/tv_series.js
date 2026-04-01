@@ -6,6 +6,7 @@ const lightboxTitle = document.getElementById('lightbox-title');
 const lightboxLength = document.getElementById('lightbox-length');
 const lightboxDesc = document.getElementById('lightbox-desc');
 const lightboxDirector = document.getElementById('lightbox-director');
+const lightboxLanguage = document.getElementById('lightbox-language');
 
 const genresContainer = document.getElementById("lightbox-genres");
 
@@ -14,7 +15,7 @@ let startX = 0;
 let currentX = 0;
 let isDragging = false;
 const tvSeriesUrl = ''
-const tvSeriesJson = 'https://ik.imagekit.io/aadivik/Me/json/tv_series_LwJ-fusOV.json'
+const tvSeriesJson = 'https://ik.imagekit.io/aadivik/Me/json/tv_series_BhJH5kXDb.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -103,6 +104,9 @@ function updateLightbox() {
       lightboxLength.textContent = secondsToHHMMSS(tvSeries.runtimeSeconds);
     }
     setGenres(tvSeries.genres)
+    if (movie.language !== undefined) {
+        lightboxLanguage.textContent = "Language: " + movie.language;
+    }
     if (tvSeries.director !== undefined) {
         lightboxDirector.textContent = "Creator: " + tvSeries.director;
     }
