@@ -561,6 +561,54 @@
       "language": "English"
     },
     {
+      "primaryTitle": "The Last Samurai",
+      "startYear": 2003,
+      "genres": ["Action", "Drama"],
+      "plot": "The Last Samurai is a 2003 American epic period action drama film directed and produced by Edward Zwick, who also co-wrote the screenplay with John Logan and Marshall Herskovitz from a story devised by Logan. The film stars Tom Cruise, who also produced, along with Timothy Spall, Ken Watanabe, Billy Connolly, Tony Goldwyn, Hiroyuki Sanada, and Koyuki Kato in supporting roles. The film's plot was inspired by the 1877 Satsuma Rebellion, led by Saigō Takamori, and the Westernization of Japan by foreign powers. Cruise portrays Nathan Algren, an American captain of the 7th Cavalry Regiment, whose personal and emotional conflicts bring him into contact with samurai warriors in the wake of the Meiji Restoration in 19th century Japan. The character of Algren is very loosely based on Eugène Collache and Jules Brunet, both French Imperial Guard officers who fought alongside Enomoto Takeaki in the earlier Boshin War.",
+      "rating": {
+        "aggregateRating": 7.8
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_last_samurai_Rai3ZQGsl.jpg"
+      },
+      "runtimeSeconds": 9240,
+      "director": "Edward Zwick",
+      "animated": false,
+      "language": "English"
+    },
+    {
+      "primaryTitle": "American Psycho",
+      "startYear": 2000,
+      "genres": ["Crime", "Drama", "Horror"],
+      "plot": "American Psycho is a 2000 black comedy horror film directed by Mary Harron, who co-wrote the screenplay with Guinevere Turner. Based on the 1991 novel by Bret Easton Ellis, it stars Christian Bale as Patrick Bateman, a New York City investment banker who leads a double life as a serial killer. Willem Dafoe, Jared Leto, Josh Lucas, Chloë Sevigny, Samantha Mathis, Cara Seymour, Justin Theroux, Turner, and Reese Witherspoon appear in supporting roles. The film blends psychological horror and black comedy to satirize 1980s yuppie culture and consumerism, exemplified by Bateman.",
+      "rating": {
+        "aggregateRating": 7.6
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/american_psycho_8gqTxCWax.jpg"
+      },
+      "runtimeSeconds": 6120,
+      "director": "Mary Harron",
+      "animated": false,
+      "language": "English"
+    },
+    {
+      "primaryTitle": "The Hurt Locker",
+      "startYear": 2008,
+      "genres": ["Drama", "Thriller", "War"],
+      "plot": "The Hurt Locker is a 2008 American war film directed by Kathryn Bigelow and written by Mark Boal. It stars Jeremy Renner, Anthony Mackie, Brian Geraghty, Christian Camargo, Ralph Fiennes, David Morse, and Guy Pearce. It follows an Iraq War bomb disposal team who are targeted by insurgents and shows their psychological reactions to the stress of combat. Boal drew on his experience during embedded access to write the screenplay.",
+      "rating": {
+        "aggregateRating": 7.5
+      },
+      "primaryImage": {
+        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/the_hurt_locker_ySyHZAPzC.jpg"
+      },
+      "runtimeSeconds": 7860,
+      "director": "Kathryn Bigelow",
+      "animated": false,
+      "language": "English"
+    },
+    {
       "primaryTitle": "A Beautiful Mind",
       "startYear": 2001,
       "genres": ["Biography", "Drama", "Mystery"],
