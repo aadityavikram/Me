@@ -39,6 +39,7 @@ fetch(moviesJson)
   .then(res => res.json())
   .then(data => {
     moviesData = data;
+    toggleFiltersVisibility();
     populateFilters();
     renderGallery();
   })
@@ -117,6 +118,38 @@ function updatePagination(totalPages) {
 
     pagination.appendChild(btn);
   }
+}
+
+function detectAvailableFilters() {
+  let hasYear = false;
+  let hasGenre = false;
+  let hasAnimated = false;
+  let hasLanguage = false;
+
+  moviesData.titles.forEach(movie => {
+    if (movie.startYear) hasYear = true;
+    if (movie.genres && movie.genres.length > 0) hasGenre = true;
+    if (movie.animated !== undefined) hasAnimated = true;
+    if (movie.language) hasLanguage = true;
+  });
+
+  return { hasYear, hasGenre, hasAnimated, hasLanguage };
+}
+
+function toggleFiltersVisibility() {
+  const { hasYear, hasGenre, hasAnimated, hasLanguage } = detectAvailableFilters();
+
+  document.getElementById('yearFilter').parentElement.style.display =
+    hasYear ? 'block' : 'none';
+
+  document.getElementById('genreFilter').parentElement.style.display =
+    hasGenre ? 'block' : 'none';
+
+  document.getElementById('animatedFilter').parentElement.style.display =
+    hasAnimated ? 'block' : 'none';
+
+  document.getElementById('languageFilter').parentElement.style.display =
+    hasLanguage ? 'block' : 'none';
 }
 
 function getFilteredMovies() {

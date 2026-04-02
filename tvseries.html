@@ -31,25 +31,25 @@
         <section class="card">
             <div class="filters">
 
-                <select id="yearFilter">
-                    <option value="">Year</option>
-                </select>
+                <div class="filter-item">
+                    <select id="yearFilter"></select>
+                </div>
 
-                <select id="genreFilter">
-                    <option value="">Genre</option>
-                </select>
+                <div class="filter-item">
+                    <select id="genreFilter"></select>
+                </div>
 
-                <select id="animatedFilter">
-                    <option value="">Type</option>
-                    <option value="true">Animated</option>
-                    <option value="false">Non-Animated</option>
-                </select>
+                <div class="filter-item">
+                    <select id="animatedFilter">
+                        <option value="">All Types</option>
+                        <option value="true">Animated</option>
+                        <option value="false">Non-Animated</option>
+                    </select>
+                </div>
 
-                <select id="languageFilter">
-                    <option value="">Language</option>
-                </select>
-
-            </div>
+                <div class="filter-item">
+                    <select id="languageFilter"></select>
+                </div>
         </section>
         <div class="gallery" id="gallery"></div>
         <div id="pagination" style="display:flex; justify-content:center; gap:6px; flex-wrap:wrap; margin-top:10px;"></div>

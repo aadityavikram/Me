@@ -39,6 +39,7 @@ fetch(videoGamesJson)
   .then(res => res.json())
   .then(data => {
     videoGamesData = data;
+    toggleFiltersVisibility();
     populateFilters();
     renderGallery();
   })
@@ -118,6 +119,38 @@ function updatePagination(totalPages) {
 
     pagination.appendChild(btn);
   }
+}
+
+function detectAvailableFilters() {
+  let hasYear = false;
+  let hasGenre = false;
+  let hasAnimated = false;
+  let hasLanguage = false;
+
+  videoGamesData.titles.forEach(videoGames => {
+    if (videoGames.startYear) hasYear = true;
+    if (videoGames.genres && videoGames.genres.length > 0) hasGenre = true;
+    if (videoGames.animated !== undefined) hasAnimated = true;
+    if (videoGames.language) hasLanguage = true;
+  });
+
+  return { hasYear, hasGenre, hasAnimated, hasLanguage };
+}
+
+function toggleFiltersVisibility() {
+  const { hasYear, hasGenre, hasAnimated, hasLanguage } = detectAvailableFilters();
+
+  document.getElementById('yearFilter').parentElement.style.display =
+    hasYear ? 'block' : 'none';
+
+  document.getElementById('genreFilter').parentElement.style.display =
+    hasGenre ? 'block' : 'none';
+
+  document.getElementById('animatedFilter').parentElement.style.display =
+    hasAnimated ? 'block' : 'none';
+
+  document.getElementById('languageFilter').parentElement.style.display =
+    hasLanguage ? 'block' : 'none';
 }
 
 function getFilteredVideoGames() {
