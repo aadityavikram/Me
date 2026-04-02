@@ -12,9 +12,13 @@ const tvSeriesCount = document.getElementById('tv-series-count')
 
 const genresContainer = document.getElementById("lightbox-genres");
 
+const pagination = document.getElementById('pagination');
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
+const itemsPerPage = 20;
+let currentPage = 1;
 let isDragging = false;
 const tvSeriesUrl = ''
 const tvSeriesJson = 'https://ik.imagekit.io/aadivik/Me/json/tv_series_BhJH5kXDb.json'
@@ -60,7 +64,16 @@ function renderGallery() {
 //  console.log("TV Series: " + JSON.stringify(tvSeriesData));
   gallery.innerHTML = '';
 
-  tvSeriesData.titles.forEach((tvSeries, index) => {
+  const totalTvSeries = tvSeriesData.titles.length;
+  const totalPages = Math.ceil(totalTvSeries / itemsPerPage);
+
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+
+  const currentTvSeries = tvSeriesData.titles.slice(start, end);
+
+  currentTvSeries.forEach((tvSeries, index) => {
+    const globalIndex = start + index;
 
     const card = document.createElement('section');
     card.className = 'card';
@@ -68,7 +81,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${tvSeries.primaryImage.url}"
            alt="${tvSeries.primaryTitle}"
-           data-index="${index}">
+           data-index="${globalIndex}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${tvSeries.primaryTitle}
@@ -77,9 +90,33 @@ function renderGallery() {
 
     gallery.appendChild(card);
   });
-  tvSeriesCount.textContent = `Total: ${tvSeriesData.titles.length}`;
+
+  tvSeriesCount.textContent = `Total: ${totalTvSeries}`;
+
+  updatePagination(totalPages);
 
   attachClickEvents();
+}
+
+function updatePagination(totalPages) {
+  pagination.innerHTML = '';
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+
+    if (i === currentPage) {
+      btn.classList.add('active');
+    }
+
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      renderGallery();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    pagination.appendChild(btn);
+  }
 }
 
 function attachClickEvents() {

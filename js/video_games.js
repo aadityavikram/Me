@@ -12,9 +12,13 @@ const videoGamesCount = document.getElementById('video-games-count')
 
 const genresContainer = document.getElementById("lightbox-genres");
 
+const pagination = document.getElementById('pagination');
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
+const itemsPerPage = 20;
+let currentPage = 1;
 let isDragging = false;
 const videoGamesUrl = ''
 const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_clDw2pWf7.json'
@@ -60,7 +64,16 @@ function renderGallery() {
 //  console.log("Video Games: " + JSON.stringify(videoGamesData));
   gallery.innerHTML = '';
 
-  videoGamesData.titles.forEach((videoGames, index) => {
+  const totalVideoGames = videoGamesData.titles.length;
+  const totalPages = Math.ceil(totalVideoGames / itemsPerPage);
+
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+
+  const currentVideoGames = videoGamesData.titles.slice(start, end);
+
+  currentVideoGames.forEach((videoGames, index) => {
+    const globalIndex = start + index;
 
     const card = document.createElement('section');
     card.className = 'card';
@@ -68,7 +81,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${videoGames.primaryImage.url}"
            alt="${videoGames.primaryTitle}"
-           data-index="${index}">
+           data-index="${globalIndex}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${videoGames.primaryTitle}
@@ -77,9 +90,33 @@ function renderGallery() {
 
     gallery.appendChild(card);
   });
-  videoGamesCount.textContent = `Total: ${videoGamesData.titles.length}`;
+
+  videoGamesCount.textContent = `Total: ${totalVideoGames}`;
+
+  updatePagination(totalPages);
 
   attachClickEvents();
+}
+
+function updatePagination(totalPages) {
+  pagination.innerHTML = '';
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+
+    if (i === currentPage) {
+      btn.classList.add('active');
+    }
+
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      renderGallery();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    pagination.appendChild(btn);
+  }
 }
 
 function attachClickEvents() {

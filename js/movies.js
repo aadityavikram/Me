@@ -12,12 +12,16 @@ const movieCount = document.getElementById('movie-count')
 
 const genresContainer = document.getElementById("lightbox-genres");
 
+const pagination = document.getElementById('pagination');
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
+const itemsPerPage = 20;
+let currentPage = 1;
 let isDragging = false;
 const moviesUrl = ''
-const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_oj5IBP-QM.json'
+const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_OrMZyHxs4.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -60,7 +64,16 @@ function renderGallery() {
 //  console.log("Movie: " + JSON.stringify(moviesData));
   gallery.innerHTML = '';
 
-  moviesData.titles.forEach((movie, index) => {
+  const totalMovies = moviesData.titles.length;
+  const totalPages = Math.ceil(totalMovies / itemsPerPage);
+
+  const start = (currentPage - 1) * itemsPerPage;
+  const end = start + itemsPerPage;
+
+  const currentMovies = moviesData.titles.slice(start, end);
+
+  currentMovies.forEach((movie, index) => {
+    const globalIndex = start + index;
 
     const card = document.createElement('section');
     card.className = 'card';
@@ -68,8 +81,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${movie.primaryImage.url}"
            alt="${movie.primaryTitle}"
-           data-index="${index}">
-
+           data-index="${globalIndex}">
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${movie.primaryTitle}
       </p>
@@ -77,9 +89,33 @@ function renderGallery() {
 
     gallery.appendChild(card);
   });
-  movieCount.textContent = `Total: ${moviesData.titles.length}`;
+
+  movieCount.textContent = `Total: ${totalMovies}`;
+
+  updatePagination(totalPages);
 
   attachClickEvents();
+}
+
+function updatePagination(totalPages) {
+  pagination.innerHTML = '';
+
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+
+    if (i === currentPage) {
+      btn.classList.add('active');
+    }
+
+    btn.addEventListener('click', () => {
+      currentPage = i;
+      renderGallery();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    pagination.appendChild(btn);
+  }
 }
 
 function attachClickEvents() {

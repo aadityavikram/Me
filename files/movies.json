@@ -577,22 +577,6 @@
       "language": "English"
     },
     {
-      "primaryTitle": "Seven Pounds",
-      "startYear": 2008,
-      "genres": ["Drama", "Mystery", "Thriller"],
-      "plot": "Seven Pounds is a 2008 American drama film directed by Gabriele Muccino, written by Grant Nieporte, and starring Will Smith as a man who sets out to change the lives of seven people; Rosario Dawson, Woody Harrelson, and Barry Pepper also star. The film was released in theaters in the United States of America on December 19, 2008, by Columbia Pictures. Despite receiving negative reviews from critics, it was a box-office success, grossing $169.7 million worldwide against a production budget of $54 million.",
-      "rating": {
-        "aggregateRating": 7.6
-      },
-      "primaryImage": {
-        "url": "https://ik.imagekit.io/aadivik/Me/img/movies_page/seven_pounds_QFJigFDYI.jpg"
-      },
-      "runtimeSeconds": 7380,
-      "director": "Gabriele Muccino",
-      "animated": false,
-      "language": "English"
-    },
-    {
       "primaryTitle": "Collateral",
       "startYear": 2004,
       "genres": ["Action", "Crime", "Drama", "Thriller"],

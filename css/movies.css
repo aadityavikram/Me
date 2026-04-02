@@ -92,6 +92,21 @@ header a {
   border: 1px solid #ef4444;
 }
 
+#pagination button {
+  background: #111;
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 32px;
+}
+
+#pagination button.active {
+  background: #ef4444;
+  color: #0b0b0b;
+}
+
 /* Lightbox */
 .lightbox {
   position: fixed;
