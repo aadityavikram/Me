@@ -84,7 +84,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${videoGames.primaryImage.url}"
            alt="${videoGames.primaryTitle}"
-           data-index="${index}">
+           data-index="${start + index}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${videoGames.primaryTitle}

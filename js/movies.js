@@ -84,7 +84,8 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${movie.primaryImage.url}"
            alt="${movie.primaryTitle}"
-           data-index="${index}">
+           data-index="${start + index}">
+
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${movie.primaryTitle}
       </p>
