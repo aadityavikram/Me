@@ -34,6 +34,7 @@ const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_OrMZyHxs4.json
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 let moviesData = [];
+let filteredMovies = [];
 
 fetch(moviesJson)
   .then(res => res.json())
@@ -65,7 +66,7 @@ function renderGallery() {
 //  console.log("Movie: " + JSON.stringify(moviesData));
   gallery.innerHTML = '';
 
-  const filteredMovies = getFilteredMovies();
+  filteredMovies = getFilteredMovies();
   const totalMovies = filteredMovies.length;
   const totalPages = Math.ceil(totalMovies / itemsPerPage);
 
@@ -83,7 +84,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${movie.primaryImage.url}"
            alt="${movie.primaryTitle}"
-           data-index="${globalIndex}">
+           data-index="${index}">
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${movie.primaryTitle}
       </p>
@@ -249,7 +250,7 @@ function attachClickEvents() {
 }
 
 function updateLightbox() {
-    const movie = moviesData.titles[currentIndex];
+    const movie = filteredMovies[currentIndex];
 
     lightboxImg.src = `${movie.primaryImage.url}`;
 
@@ -315,12 +316,12 @@ document.addEventListener('keydown', (e) => {
     }
 
     if (e.key === 'ArrowRight') {
-      currentIndex = (currentIndex + 1) % images.length;
+      currentIndex = (currentIndex + 1) % filteredMovies.length;
       updateLightbox();
     }
 
     if (e.key === 'ArrowLeft') {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      currentIndex = (currentIndex - 1 + filteredMovies.length) % filteredMovies.length;
       updateLightbox();
     }
   }

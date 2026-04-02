@@ -34,6 +34,7 @@ const tvSeriesJson = 'https://ik.imagekit.io/aadivik/Me/json/tv_series_BhJH5kXDb
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 let tvSeriesData = [];
+let filteredTvSeries = [];
 
 fetch(tvSeriesJson)
   .then(res => res.json())
@@ -65,7 +66,7 @@ function renderGallery() {
 //  console.log("TV Series: " + JSON.stringify(tvSeriesData));
   gallery.innerHTML = '';
 
-  const filteredTvSeries = getFilteredTvSeries();
+  filteredTvSeries = getFilteredTvSeries();
   const totalTvSeries = filteredTvSeries.length;
   const totalPages = Math.ceil(totalTvSeries / itemsPerPage);
 
@@ -83,7 +84,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${tvSeries.primaryImage.url}"
            alt="${tvSeries.primaryTitle}"
-           data-index="${globalIndex}">
+           data-index="${index}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${tvSeries.primaryTitle}
@@ -250,7 +251,7 @@ function attachClickEvents() {
 }
 
 function updateLightbox() {
-    const tvSeries = tvSeriesData.titles[currentIndex];
+    const tvSeries = filteredTvSeries[currentIndex];
 
     lightboxImg.src = `${tvSeries.primaryImage.url}`;
 
@@ -316,12 +317,12 @@ document.addEventListener('keydown', (e) => {
     }
 
     if (e.key === 'ArrowRight') {
-      currentIndex = (currentIndex + 1) % images.length;
+      currentIndex = (currentIndex + 1) % filteredTvSeries.length;
       updateLightbox();
     }
 
     if (e.key === 'ArrowLeft') {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      currentIndex = (currentIndex - 1 + filteredTvSeries.length) % filteredTvSeries.length;
       updateLightbox();
     }
   }
@@ -336,4 +337,28 @@ window.addEventListener('scroll', () => {
 
 topBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+  filters.year = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('genreFilter')?.addEventListener('change', (e) => {
+  filters.genre = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('animatedFilter')?.addEventListener('change', (e) => {
+  filters.animated = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('languageFilter')?.addEventListener('change', (e) => {
+  filters.language = e.target.value;
+  currentPage = 1;
+  renderGallery();
 });

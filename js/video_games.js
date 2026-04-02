@@ -34,6 +34,7 @@ const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_clDw2
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
 let videoGamesData = [];
+let filteredVideoGames = [];
 
 fetch(videoGamesJson)
   .then(res => res.json())
@@ -65,7 +66,7 @@ function renderGallery() {
 //  console.log("Video Games: " + JSON.stringify(videoGamesData));
   gallery.innerHTML = '';
 
-  const filteredVideoGames = getFilteredVideoGames();
+  filteredVideoGames = getFilteredVideoGames();
   const totalVideoGames = filteredVideoGames.length;
   const totalPages = Math.ceil(totalVideoGames / itemsPerPage);
 
@@ -83,7 +84,7 @@ function renderGallery() {
     card.innerHTML = `
       <img src="${videoGames.primaryImage.url}"
            alt="${videoGames.primaryTitle}"
-           data-index="${globalIndex}">
+           data-index="${index}">
 
       <p style="margin-top:8px; color:#ef4444; font-size:0.9rem;">
         ${videoGames.primaryTitle}
@@ -250,7 +251,7 @@ function attachClickEvents() {
 }
 
 function updateLightbox() {
-    const videoGames = videoGamesData.titles[currentIndex];
+    const videoGames = filteredVideoGames[currentIndex];
 
     lightboxImg.src = `${videoGames.primaryImage.url}`;
 
@@ -316,12 +317,12 @@ document.addEventListener('keydown', (e) => {
     }
 
     if (e.key === 'ArrowRight') {
-      currentIndex = (currentIndex + 1) % images.length;
+      currentIndex = (currentIndex + 1) % filteredVideoGames.length;
       updateLightbox();
     }
 
     if (e.key === 'ArrowLeft') {
-      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      currentIndex = (currentIndex - 1 + filteredVideoGames.length) % filteredVideoGames.length;
       updateLightbox();
     }
   }
@@ -336,4 +337,28 @@ window.addEventListener('scroll', () => {
 
 topBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+  filters.year = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('genreFilter')?.addEventListener('change', (e) => {
+  filters.genre = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('animatedFilter')?.addEventListener('change', (e) => {
+  filters.animated = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('languageFilter')?.addEventListener('change', (e) => {
+  filters.language = e.target.value;
+  currentPage = 1;
+  renderGallery();
 });
