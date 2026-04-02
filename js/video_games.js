@@ -14,36 +14,36 @@ const genresContainer = document.getElementById("lightbox-genres");
 
 const pagination = document.getElementById('pagination');
 
+const gallery = document.getElementById('gallery');
+
+let filters = {
+  year: '',
+  genre: '',
+  animated: '',
+  language: ''
+};
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
 const itemsPerPage = 20;
 let currentPage = 1;
 let isDragging = false;
-const videoGamesUrl = ''
 const videoGamesJson = 'https://ik.imagekit.io/aadivik/Me/json/video_games_clDw2pWf7.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-const gallery = document.getElementById('gallery');
-
 let videoGamesData = [];
 
-fetch(videoGamesUrl)
+fetch(videoGamesJson)
   .then(res => res.json())
   .then(data => {
     videoGamesData = data;
+    populateFilters();
     renderGallery();
   })
   .catch(err => {
-    console.error('Error loading Video Games from URL:', err);
-    fetch(videoGamesJson)
-      .then(res => res.json())
-      .then(data => {
-        videoGamesData = data;
-        renderGallery();
-      })
-      .catch(err => console.error('Error loading Video Games from JSON:', err));
+    console.error('Error loading Video Games from database:', err);
   });
 
 /* ---------- OPEN ---------- */
@@ -64,13 +64,14 @@ function renderGallery() {
 //  console.log("Video Games: " + JSON.stringify(videoGamesData));
   gallery.innerHTML = '';
 
-  const totalVideoGames = videoGamesData.titles.length;
+  const filteredVideoGames = getFilteredVideoGames();
+  const totalVideoGames = filteredVideoGames.length;
   const totalPages = Math.ceil(totalVideoGames / itemsPerPage);
 
   const start = (currentPage - 1) * itemsPerPage;
   const end = start + itemsPerPage;
 
-  const currentVideoGames = videoGamesData.titles.slice(start, end);
+  const currentVideoGames = filteredVideoGames.slice(start, end);
 
   currentVideoGames.forEach((videoGames, index) => {
     const globalIndex = start + index;
@@ -119,6 +120,87 @@ function updatePagination(totalPages) {
   }
 }
 
+function getFilteredVideoGames() {
+  return videoGamesData.titles.filter(videoGames => {
+
+    if (filters.year && videoGames.startYear != filters.year) return false;
+
+    if (filters.genre && !videoGames.genres.includes(filters.genre)) return false;
+
+    if (filters.animated !== '') {
+      if (String(videoGames.animated) !== filters.animated) return false;
+    }
+
+    if (filters.language && videoGames.language !== filters.language) return false;
+
+    return true;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  videoGamesData.titles.forEach(videoGames => {
+    if (videoGames.startYear) years.add(videoGames.startYear);
+    if (videoGames.language) languages.add(videoGames.language);
+    videoGames.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  videoGamesData.titles.forEach(videoGames => {
+    if (videoGames.startYear) years.add(videoGames.startYear);
+    if (videoGames.language) languages.add(videoGames.language);
+    videoGames.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
+}
+
 function attachClickEvents() {
   const images = document.querySelectorAll('.gallery img');
 
@@ -144,8 +226,8 @@ function updateLightbox() {
       lightboxLength.textContent = secondsToHHMM(videoGames.runtimeSeconds);
     }
     setGenres(videoGames.genres)
-    if (movie.language !== undefined) {
-        lightboxLanguage.textContent = "Language: " + movie.language;
+    if (videoGames.language !== undefined) {
+        lightboxLanguage.textContent = "Language: " + videoGames.language;
     }
     if (videoGames.director !== undefined) {
         lightboxDirector.textContent = "Director: " + videoGames.director;

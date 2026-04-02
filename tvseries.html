@@ -28,6 +28,29 @@
     </header>
 
     <section class="card" id="tvseries">
+        <section class="card">
+            <div class="filters">
+
+                <select id="yearFilter">
+                    <option value="">Year</option>
+                </select>
+
+                <select id="genreFilter">
+                    <option value="">Genre</option>
+                </select>
+
+                <select id="animatedFilter">
+                    <option value="">Type</option>
+                    <option value="true">Animated</option>
+                    <option value="false">Non-Animated</option>
+                </select>
+
+                <select id="languageFilter">
+                    <option value="">Language</option>
+                </select>
+
+            </div>
+        </section>
         <div class="gallery" id="gallery"></div>
         <div id="pagination" style="display:flex; justify-content:center; gap:6px; flex-wrap:wrap; margin-top:10px;"></div>
     </section>

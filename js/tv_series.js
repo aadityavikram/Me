@@ -14,36 +14,36 @@ const genresContainer = document.getElementById("lightbox-genres");
 
 const pagination = document.getElementById('pagination');
 
+const gallery = document.getElementById('gallery');
+
+let filters = {
+  year: '',
+  genre: '',
+  animated: '',
+  language: ''
+};
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
 const itemsPerPage = 20;
 let currentPage = 1;
 let isDragging = false;
-const tvSeriesUrl = ''
 const tvSeriesJson = 'https://ik.imagekit.io/aadivik/Me/json/tv_series_BhJH5kXDb.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-const gallery = document.getElementById('gallery');
-
 let tvSeriesData = [];
 
-fetch(tvSeriesUrl)
+fetch(tvSeriesJson)
   .then(res => res.json())
   .then(data => {
     tvSeriesData = data;
+    populateFilters();
     renderGallery();
   })
   .catch(err => {
-    console.error('Error loading TV Series from URL:', err);
-    fetch(tvSeriesJson)
-      .then(res => res.json())
-      .then(data => {
-        tvSeriesData = data;
-        renderGallery();
-      })
-      .catch(err => console.error('Error loading TV Series from JSON:', err));
+    console.error('Error loading TV Series from database:', err);
   });
 
 /* ---------- OPEN ---------- */
@@ -64,13 +64,14 @@ function renderGallery() {
 //  console.log("TV Series: " + JSON.stringify(tvSeriesData));
   gallery.innerHTML = '';
 
-  const totalTvSeries = tvSeriesData.titles.length;
+  const filteredTvSeries = getFilteredTvSeries();
+  const totalTvSeries = filteredTvSeries.length;
   const totalPages = Math.ceil(totalTvSeries / itemsPerPage);
 
   const start = (currentPage - 1) * itemsPerPage;
   const end = start + itemsPerPage;
 
-  const currentTvSeries = tvSeriesData.titles.slice(start, end);
+  const currentTvSeries = filteredTvSeries.slice(start, end);
 
   currentTvSeries.forEach((tvSeries, index) => {
     const globalIndex = start + index;
@@ -119,6 +120,87 @@ function updatePagination(totalPages) {
   }
 }
 
+function getFilteredTvSeries() {
+  return tvSeriesData.titles.filter(tvSeries => {
+
+    if (filters.year && tvSeries.startYear != filters.year) return false;
+
+    if (filters.genre && !tvSeries.genres.includes(filters.genre)) return false;
+
+    if (filters.animated !== '') {
+      if (String(tvSeries.animated) !== filters.animated) return false;
+    }
+
+    if (filters.language && tvSeries.language !== filters.language) return false;
+
+    return true;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  tvSeriesData.titles.forEach(tvSeries => {
+    if (tvSeries.startYear) years.add(tvSeries.startYear);
+    if (tvSeries.language) languages.add(tvSeries.language);
+    tvSeries.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  tvSeriesData.titles.forEach(tvSeries => {
+    if (tvSeries.startYear) years.add(tvSeries.startYear);
+    if (tvSeries.language) languages.add(tvSeries.language);
+    tvSeries.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
+}
+
 function attachClickEvents() {
   const images = document.querySelectorAll('.gallery img');
 
@@ -144,8 +226,8 @@ function updateLightbox() {
       lightboxLength.textContent = secondsToHHMM(tvSeries.runtimeSeconds);
     }
     setGenres(tvSeries.genres)
-    if (movie.language !== undefined) {
-        lightboxLanguage.textContent = "Language: " + movie.language;
+    if (tvSeries.language !== undefined) {
+        lightboxLanguage.textContent = "Language: " + tvSeries.language;
     }
     if (tvSeries.director !== undefined) {
         lightboxDirector.textContent = "Creator: " + tvSeries.director;

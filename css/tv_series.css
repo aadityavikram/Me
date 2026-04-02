@@ -61,6 +61,24 @@ header a {
   border-radius: 6px;
 }
 
+.filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.filters select {
+  background: #111;
+  color: #ef4444;
+  border: 1px solid #ef4444;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
 .card {
   background: #111111;
   border: 1px solid #1f1f1f;
@@ -249,19 +267,24 @@ footer {
   margin-top: 15px;
 }
 
-@media(max-width: 768px) {
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 @media(max-width: 500px) {
+  .filters {
+    grid-template-columns: 1fr;
+  }
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media(max-width: 768px) {
+  .filters {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 
   .lightbox-content {
     grid-template-columns: 1fr;

@@ -14,36 +14,36 @@ const genresContainer = document.getElementById("lightbox-genres");
 
 const pagination = document.getElementById('pagination');
 
+const gallery = document.getElementById('gallery');
+
+let filters = {
+  year: '',
+  genre: '',
+  animated: '',
+  language: ''
+};
+
 let currentIndex = 0;
 let startX = 0;
 let currentX = 0;
 const itemsPerPage = 20;
 let currentPage = 1;
 let isDragging = false;
-const moviesUrl = ''
 const moviesJson = 'https://ik.imagekit.io/aadivik/Me/json/movies_OrMZyHxs4.json'
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-const gallery = document.getElementById('gallery');
-
 let moviesData = [];
 
-fetch(moviesUrl)
+fetch(moviesJson)
   .then(res => res.json())
   .then(data => {
     moviesData = data;
+    populateFilters();
     renderGallery();
   })
   .catch(err => {
-    console.error('Error loading movies from URL:', err);
-    fetch(moviesJson)
-      .then(res => res.json())
-      .then(data => {
-        moviesData = data;
-        renderGallery();
-      })
-      .catch(err => console.error('Error loading movies from JSON:', err));
+    console.error('Error loading movies from database:', err);
   });
 
 /* ---------- OPEN ---------- */
@@ -64,13 +64,14 @@ function renderGallery() {
 //  console.log("Movie: " + JSON.stringify(moviesData));
   gallery.innerHTML = '';
 
-  const totalMovies = moviesData.titles.length;
+  const filteredMovies = getFilteredMovies();
+  const totalMovies = filteredMovies.length;
   const totalPages = Math.ceil(totalMovies / itemsPerPage);
 
   const start = (currentPage - 1) * itemsPerPage;
   const end = start + itemsPerPage;
 
-  const currentMovies = moviesData.titles.slice(start, end);
+  const currentMovies = filteredMovies.slice(start, end);
 
   currentMovies.forEach((movie, index) => {
     const globalIndex = start + index;
@@ -116,6 +117,87 @@ function updatePagination(totalPages) {
 
     pagination.appendChild(btn);
   }
+}
+
+function getFilteredMovies() {
+  return moviesData.titles.filter(movie => {
+
+    if (filters.year && movie.startYear != filters.year) return false;
+
+    if (filters.genre && !movie.genres.includes(filters.genre)) return false;
+
+    if (filters.animated !== '') {
+      if (String(movie.animated) !== filters.animated) return false;
+    }
+
+    if (filters.language && movie.language !== filters.language) return false;
+
+    return true;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  moviesData.titles.forEach(movie => {
+    if (movie.startYear) years.add(movie.startYear);
+    if (movie.language) languages.add(movie.language);
+    movie.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
+}
+
+function populateFilters() {
+  const years = new Set();
+  const genres = new Set();
+  const languages = new Set();
+
+  moviesData.titles.forEach(movie => {
+    if (movie.startYear) years.add(movie.startYear);
+    if (movie.language) languages.add(movie.language);
+    movie.genres?.forEach(g => genres.add(g));
+  });
+
+  const yearFilter = document.getElementById('yearFilter');
+  const genreFilter = document.getElementById('genreFilter');
+  const languageFilter = document.getElementById('languageFilter');
+
+  yearFilter.innerHTML = '<option value="">Year</option>';
+  genreFilter.innerHTML = '<option value="">Genre</option>';
+  languageFilter.innerHTML = '<option value="">Language</option>';
+
+  [...years].sort().forEach(y => {
+    yearFilter.innerHTML += `<option value="${y}">${y}</option>`;
+  });
+
+  [...genres].sort().forEach(g => {
+    genreFilter.innerHTML += `<option value="${g}">${g}</option>`;
+  });
+
+  [...languages].sort().forEach(l => {
+    languageFilter.innerHTML += `<option value="${l}">${l}</option>`;
+  });
 }
 
 function attachClickEvents() {
@@ -220,4 +302,28 @@ window.addEventListener('scroll', () => {
 
 topBtn.addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.getElementById('yearFilter')?.addEventListener('change', (e) => {
+  filters.year = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('genreFilter')?.addEventListener('change', (e) => {
+  filters.genre = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('animatedFilter')?.addEventListener('change', (e) => {
+  filters.animated = e.target.value;
+  currentPage = 1;
+  renderGallery();
+});
+
+document.getElementById('languageFilter')?.addEventListener('change', (e) => {
+  filters.language = e.target.value;
+  currentPage = 1;
+  renderGallery();
 });
