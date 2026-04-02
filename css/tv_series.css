@@ -299,5 +299,7 @@ footer {
 
   .lightbox-right {
     align-items: flex-start;
+    align-items: center;
+    text-align: center;
   }
 }
